@@ -1,0 +1,36 @@
+#! /bin/sh
+#
+# Generate the link sign prediction evaluation results. 
+#
+# PARAMETERS
+#	$1 bar chart name
+#
+
+set -e
+
+TMP_FILE=${TMP:-/tmp}/`basename $0`.$$
+
+CORPORA="slashdot-zoo epinions libimseti elec"
+export CORPORA
+
+export OUTPUT=$TMP_FILE.out
+export OUTPUT_BAR="`pwd`/$1"
+
+export METHODS_PATHA="adad" 
+export METHODS_SYM="polyn" 
+export METHODS_SYM_N="lap" 
+export METHODS_LAPS="lrat"
+export METHODS_EXTR="sne_abs"
+# export METHODS="poly polyn exp dim_lin odd" 
+# export METHODS_PATHA="pref" 
+# export METHODS_PATH="meaneuv jaccard"
+
+export HIDE_SIZE=1
+export HIDE_TYPE_NAME=1
+
+cd ../webstore/analysis/
+
+../matlab/matlab result2 
+
+cat $TMP_FILE.out
+

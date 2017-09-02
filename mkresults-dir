@@ -1,0 +1,31 @@
+#! /bin/sh
+#
+# Generate the directed evaluation results. 
+#
+# PARAMETERS
+#	$1 bar chart name
+#
+
+set -e
+
+TMP_FILE=${TMP:-/tmp}/`basename $0`.$$
+
+CORPORA="`cat eval-datasets.dir`"
+export CORPORA
+
+export OUTPUT=$TMP_FILE.out
+export OUTPUT_BAR="`pwd`/$1"
+
+export METHODS_PATHA="adad" 
+#export METHODS_PATH="jaccard"
+export METHODS_SYM="exp" 
+export METHODS_ASYM="sinh" 
+export METHODS_BACK="sinh"
+
+export HIDE_SIZE=1
+
+cd ../webstore/analysis/
+
+../matlab/matlab result2 
+
+cat $TMP_FILE.out

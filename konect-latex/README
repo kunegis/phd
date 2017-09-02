@@ -1,0 +1,10 @@
+
+Tools for producing Latex tables from data in KONECT.
+
+uni/ and dat/ must contain the data. 
+
+Tables are first output in Tab format (*.tab).  These files use the
+following conventions: 
+* Cells are separated by tab
+* References are in brackets
+* Best values are in curly braces

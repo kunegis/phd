@@ -1,0 +1,8 @@
+
+Style rules for this thesis:
+
+
+* In the text, everything below the section level (subsections, ...,
+  paragraphs, ...) are called "sections" in the text. 
+* Math indexes that are names and not variables are set in \mathrm. 
+

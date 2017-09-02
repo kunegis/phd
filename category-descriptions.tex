@@ -1,0 +1,89 @@
+% DO NOT EDIT--COPIED FROM NETWORK_SURVEY
+\begin{description}
+
+\item[Authorship networks] are unweighted bipartite networks
+consisting of links between authors and their works.  In some authorship
+networks such as that of scientific literature, works have typically a few
+authors, whereas works in other authorship networks may have many
+authors, as in Wikipedia articles.  In an authorship network, vertices
+corresponding to works are added one by one with all their incident
+edges, and the link prediction problem is not meaningful.  Therefore, we
+also consider author-author networks of co-authorships.  In these
+networks, each edge represents a joint authorship, with the timestamp
+representing the publication date. 
+Example of authorship networks are the Wikipedia user--article edit
+network, and the DBLP network of scientists and their publications. 
+
+\item[Communication networks] contain edges that represent
+single messages between persons.  Communication networks are directed
+and may have multiple edges.  Timestamps denote the date of a message.
+Examples of communication networks include emails, Facebook wall posts
+and Twitter posts addressed using the ``@name'' notation.
+
+\item[Co-occurrence networks] represent the simultaneous appearance of
+  items.  Co-occurrence networks are unipartite, undirected and
+  unweighted.  Examples are the co-purchase network from Amazon, and the
+  \emph{is-similar} relationship of DBpedia.
+
+\item[Feature networks] are bipartite, and denote any kind of feature
+assigned to entities.  This includes user memberships in online groups,
+as well as player memberships in sports clubs.  Feature networks are
+unweighted and have edges that are not annotated with edge creation
+times. 
+Examples are the genre of songs and the clubs in which a football player
+has played. 
+
+\item[Folksonomies] consist of tag assignments connecting a user, an
+item and a tag.  For folksonomies, we follow the 3-bipartite 
+approach and consider the three possible bipartite networks, i.e.\ the
+user--item, user--tag and item--tag networks.  This allows us to apply
+methods for bipartite graphs to hypergraphs, which is not possible
+otherwise.  
+Examples of folksonomies are Delicious for bookmarks, CiteULike for
+scientific publications and MovieLens for movies. 
+
+\item[Interaction networks] represent collections of single events
+between entities.  Most interaction networks have edges with
+timestamps. 
+Examples are the interaction of proteins and other molecules in
+biological organisms and the Last.fm user--song listening network. 
+
+\item[Physical networks] represent physically existing network
+structures.  This includes physical computer networks and road
+networks.  
+These networks result from an underlying two-dimensional geographical
+layout. 
+Examples are road networks and the autonomous systems of the Internet.  
+
+\item[Rating networks] consist of assessments given to entities 
+by users, weighted by a rating value.   Most rating networks are
+bipartite, when users rate items.  A few rating networks are unipartite
+and directed,
+when users rate other users.  Most rating networks are weighted; others
+are signed, when there is an explicit neutral rating value of zero. 
+Examples are the Netflix movie ratings and Jester joke ratings. 
+
+\item[Reference networks] consist of citations or
+hyperlinks between publications, patents or web pages.   Reference networks are
+directed. 
+In most reference networks, edges are created along with nodes.
+Therefore, the link prediction problem cannot be applied to them.  An
+exception are hyperlink networks, where links can be added at any time. 
+Examples are hyperlinks between pages on the World Wide Web and
+citations between scientific publications. 
+
+\item[Social networks] represent relations of friendship between
+persons.  Some social networks have negative edges, which denote enmity.
+All social networks have simple or signed edges, since it is not
+possible to add another user multiple times to one's friend (or foe)
+list. 
+In social networks, timestamps denote when a link was established.  
+Examples are Facebook friendships, the Twitter follower relationship,
+and friends and foes on Slashdot. 
+
+\item[Trust networks] connect persons or entities by links of
+trust.  Trust networks are necessarily directed.  Links may also denote
+distrust, in which case negative edge weights are used. 
+Examples are given by the sites Epinions and Advogato. 
+
+\end{description}

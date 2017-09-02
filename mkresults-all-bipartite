@@ -1,0 +1,30 @@
+#! /bin/sh
+#
+# Generate the tab-separated evaluation results. 
+#
+
+set -e
+
+TMP_FILE=${TMP:-/tmp}/`basename $0`.$$
+
+CORPORA="`cat dataset-list-eval`"
+export CORPORA="`echo $CORPORA`"
+
+export OUTPUT=$TMP_FILE.out
+
+export FILTER_RELATIONSHIP_FORMAT="8"
+
+export METHODS_PATHA="pref" 
+export METHODS_BIP="poly polyn sinh neuodd dim_lin" 
+export METHODS_BIPN="lapodd ratodd" 
+export METHODS_LAPB="lrat lexp"
+export METHODS_EXTRBIP="sne_squ"
+
+export SHORT_NAME=1
+export HIDE_SIZE=1
+
+cd ../webstore/analysis/
+
+../matlab/matlab result2 
+
+cat $TMP_FILE.out

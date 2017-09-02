@@ -1,0 +1,8 @@
+# Dat.          	L-COM	L-REG	L-HEAT	L-POLY
+Interaction:Haggle Haggle ([[CO]]) 	0.406	0.406	0.406	0.406
+Authorship:arXiv-astro-ph arXiv astro-ph ([[AP]])	0.578	0.580	0.579	0.580
+Communication:Pretty-Good-Privacy Pretty Good Privacy ([[PG]])	0.967	0.970	0.968	0.969
+Interaction:{\it{Caenorhabditis-elegans}} {\it{Caenorhabditis elegans}} ([[PM]])	0.862	0.858	0.856	0.858
+Physical:CAIDA CAIDA ([[IN]])  	0.837	0.844	0.844	0.844
+Physical:Route-Views Route Views ([[AS]])	0.954	0.936	0.939	0.939
+Communication:U.-Rovira-i-Virgili U. Rovira i Virgili ([[A@]])	0.970	0.924	0.926	0.905

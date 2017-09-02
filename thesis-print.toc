@@ -1,0 +1,182 @@
+\select@language {american}
+\select@language {ngerman}
+\select@language {american}
+\select@language {ngerman}
+\select@language {american}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation: Recommender Systems}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Background: Eigenvalue Decomposition}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Thesis: Spectral Evolution}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Application: Link Prediction Algorithms}{4}{section.1.4}
+\contentsline {section}{\numberline {1.5}Outline}{5}{section.1.5}
+\contentsline {section}{\numberline {1.6}Publications and Own Contributions}{6}{section.1.6}
+\contentsline {chapter}{\numberline {2}Networks}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Definitions}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Network Properties}{8}{subsection.2.1.1}
+\contentsline {paragraph}{Edge Structure}{8}{section*.5}
+\contentsline {paragraph}{Edge Types}{9}{section*.6}
+\contentsline {paragraph}{Metadata}{9}{section*.7}
+\contentsline {subsection}{\numberline {2.1.2}Network Categories}{9}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Graph Theory}{12}{subsection.2.1.3}
+\contentsline {paragraph}{Example}{13}{section*.8}
+\contentsline {subsection}{\numberline {2.1.4}Linear Algebra}{13}{subsection.2.1.4}
+\contentsline {paragraph}{Examples}{14}{section*.9}
+\contentsline {subsection}{\numberline {2.1.5}Algebraic Graph Theory}{14}{subsection.2.1.5}
+\contentsline {paragraph}{Adjacency Matrix}{14}{section*.10}
+\contentsline {paragraph}{Biadjacency Matrix}{15}{section*.11}
+\contentsline {paragraph}{Degree Matrix}{15}{section*.12}
+\contentsline {paragraph}{Normalized Adjacency Matrices}{16}{section*.13}
+\contentsline {paragraph}{Laplacian Matrix}{16}{section*.14}
+\contentsline {paragraph}{Example}{17}{section*.15}
+\contentsline {subsection}{\numberline {2.1.6}Spectral Graph Theory}{17}{subsection.2.1.6}
+\contentsline {paragraph}{Eigenvalue Decomposition}{18}{section*.16}
+\contentsline {paragraph}{Singular Value Decomposition}{18}{section*.17}
+\contentsline {paragraph}{Decomposition of Characteristic Graph Matrices}{19}{section*.18}
+\contentsline {paragraph}{Applications}{19}{section*.19}
+\contentsline {section}{\numberline {2.2}The Network Collection}{20}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Overview}{22}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Network Models}{22}{subsection.2.2.2}
+\contentsline {subsubsection}{Scale-free Networks}{23}{section*.20}
+\contentsline {subsubsection}{Small-world Networks}{25}{section*.21}
+\contentsline {paragraph}{Effective Diameter}{26}{section*.22}
+\contentsline {paragraph}{Clustering Coefficient}{26}{section*.23}
+\contentsline {subsubsection}{Evolving Networks}{27}{section*.24}
+\contentsline {subsection}{\numberline {2.2.3}The Slashdot Zoo}{28}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Summary}{31}{section.2.3}
+\contentsline {chapter}{\numberline {3}The Spectral Evolution Model}{33}{chapter.3}
+\contentsline {section}{\numberline {3.1}Overview}{33}{section.3.1}
+\contentsline {section}{\numberline {3.2}Empirical Verification}{34}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Spectral Evolution}{35}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Eigenvector Evolution}{36}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Eigenvector Stability}{36}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Spectral Diagonality Test}{37}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Generalizing Other Models}{39}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Triangle Closing}{39}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Path Counting}{40}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Graph Kernels}{40}{subsection.3.3.3}
+\contentsline {paragraph}{Exponential Kernel}{41}{section*.25}
+\contentsline {paragraph}{Neumann Kernel}{41}{section*.26}
+\contentsline {paragraph}{Example}{41}{section*.27}
+\contentsline {paragraph}{Other Graph Kernels}{41}{section*.28}
+\contentsline {subsection}{\numberline {3.3.4}Rank Reduction}{41}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Latent Preferential Attachment}{43}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Irregular Growth}{44}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.7}Avoided Crossings}{44}{subsection.3.3.7}
+\contentsline {section}{\numberline {3.4}Control Tests}{46}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Random Graph Growth}{46}{subsection.3.4.1}
+\contentsline {paragraph}{Observations}{47}{section*.29}
+\contentsline {subsection}{\numberline {3.4.2}Random Sampling}{47}{subsection.3.4.2}
+\contentsline {paragraph}{Observations}{47}{section*.30}
+\contentsline {subsection}{\numberline {3.4.3}Laplacian Spectral Evolution}{47}{subsection.3.4.3}
+\contentsline {paragraph}{Observations}{49}{section*.31}
+\contentsline {section}{\numberline {3.5}Summary}{50}{section.3.5}
+\contentsline {chapter}{\numberline {4}Learning Spectral Transformations}{53}{chapter.4}
+\contentsline {section}{\numberline {4.1}Link Prediction}{54}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Local Link Prediction Methods}{55}{subsection.4.1.1}
+\contentsline {paragraph}{Common Neighbors}{55}{section*.32}
+\contentsline {paragraph}{Preferential Attachment}{55}{section*.33}
+\contentsline {paragraph}{Jaccard}{55}{section*.34}
+\contentsline {paragraph}{Adamic--Adar}{56}{section*.35}
+\contentsline {subsection}{\numberline {4.1.2}Normalization}{56}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Evaluating Link Prediction Methods}{56}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Measuring Link Prediction Accuracy}{57}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Learning by Curve Fitting}{58}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Link Prediction as an Optimization Problem}{59}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Curve Fitting}{60}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Normalized and Laplacian Kernels}{61}{subsection.4.2.3}
+\contentsline {paragraph}{Normalized Kernels}{61}{section*.36}
+\contentsline {paragraph}{Laplacian Kernels}{62}{section*.37}
+\contentsline {paragraph}{Moore--Penrose Pseudoinverse}{63}{section*.38}
+\contentsline {paragraph}{Commute-time Kernels}{64}{section*.39}
+\contentsline {paragraph}{Heat Diffusion}{65}{section*.40}
+\contentsline {paragraph}{Generalized Laplacian Kernels}{65}{section*.41}
+\contentsline {paragraph}{Summary}{66}{section*.42}
+\contentsline {section}{\numberline {4.3}Learning by Spectral Extrapolation}{66}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Method}{67}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Experiments}{68}{section.4.4}
+\contentsline {paragraph}{Best Performing Link Prediction Methods}{69}{section*.43}
+\contentsline {paragraph}{Spectral Extrapolation}{69}{section*.44}
+\contentsline {paragraph}{Comparison of Methods}{69}{section*.45}
+\contentsline {paragraph}{Observations}{74}{section*.46}
+\contentsline {section}{\numberline {4.5}Related Learning Methods}{76}{section.4.5}
+\contentsline {paragraph}{Joint Diagonalization}{76}{section*.47}
+\contentsline {paragraph}{Linear and Quadratic Programming}{76}{section*.48}
+\contentsline {section}{\numberline {4.6}Summary}{76}{section.4.6}
+\contentsline {chapter}{\numberline {5}Signed Networks}{79}{chapter.5}
+\contentsline {section}{\numberline {5.1}Background}{80}{section.5.1}
+\contentsline {section}{\numberline {5.2}Signed Graph Drawing}{81}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Unsigned Graphs}{81}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Signed Graphs}{82}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Synthetic Examples}{83}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Definitions}{83}{section.5.3}
+\contentsline {paragraph}{Unsigned Laplacian Matrix}{83}{section*.49}
+\contentsline {paragraph}{Signed Laplacian Matrix}{85}{section*.50}
+\contentsline {paragraph}{Normalized Laplacians}{85}{section*.51}
+\contentsline {section}{\numberline {5.4}Signed Spectral Analysis}{86}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Positive-semidefiniteness}{86}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Positive-definiteness}{87}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Balanced Graphs}{88}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Algebraic Conflict}{89}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Practical Considerations}{91}{subsection.5.4.5}
+\contentsline {section}{\numberline {5.5}Signed Spectral Clustering}{92}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Unsigned Graphs}{93}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Signed Graphs}{94}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Signed Clustering using Other Matrices}{95}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Anthropological Example}{95}{subsection.5.5.4}
+\contentsline {section}{\numberline {5.6}Link Sign Prediction}{95}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Functions of the Signed Adjacency Matrix}{96}{subsection.5.6.1}
+\contentsline {paragraph}{Signed Exponential Kernel}{97}{section*.52}
+\contentsline {paragraph}{Signed Neumann Kernel}{97}{section*.53}
+\contentsline {subsection}{\numberline {5.6.2}Functions of the Normalized Adjacency Matrix}{97}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Signed Laplacian Kernels}{98}{subsection.5.6.3}
+\contentsline {subsection}{\numberline {5.6.4}Experiments}{98}{subsection.5.6.4}
+\contentsline {paragraph}{Observations}{99}{section*.54}
+\contentsline {section}{\numberline {5.7}Interpretation of Conflict and Centrality}{100}{section.5.7}
+\contentsline {section}{\numberline {5.8}Alternative Derivations}{102}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Signed Resistance Distance}{102}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Markov Random Fields}{103}{subsection.5.8.2}
+\contentsline {subsubsection}{The Markov Network of Ratings}{103}{section*.55}
+\contentsline {section}{\numberline {5.9}Related Work}{105}{section.5.9}
+\contentsline {section}{\numberline {5.10}Summary}{106}{section.5.10}
+\contentsline {chapter}{\numberline {6}Bipartite and Directed Networks}{107}{chapter.6}
+\contentsline {section}{\numberline {6.1}Bipartite Networks}{108}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Bipartite Link Prediction}{108}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Odd Spectral Transformations}{109}{subsection.6.1.2}
+\contentsline {paragraph}{Odd Path Counting}{110}{section*.56}
+\contentsline {paragraph}{Hyperbolic Sine}{110}{section*.57}
+\contentsline {paragraph}{Odd Neumann Pseudokernel}{111}{section*.58}
+\contentsline {paragraph}{Odd Normalized Pseudokernels}{111}{section*.59}
+\contentsline {subsection}{\numberline {6.1.3}Decomposition of the Biadjacency Matrix}{112}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Experiments}{112}{subsection.6.1.4}
+\contentsline {paragraph}{Observations}{114}{section*.60}
+\contentsline {subsection}{\numberline {6.1.5}The Split-complex Numbers}{114}{subsection.6.1.5}
+\contentsline {section}{\numberline {6.2}Collaborative Filtering}{117}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Experiments}{118}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Bipartite Algebraic Conflict}{118}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Directed Networks}{119}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Spectral Analysis}{120}{subsection.6.3.1}
+\contentsline {paragraph}{Directed Laplacian}{120}{section*.61}
+\contentsline {subsection}{\numberline {6.3.2}Experiments}{120}{subsection.6.3.2}
+\contentsline {paragraph}{Observations}{120}{section*.62}
+\contentsline {section}{\numberline {6.4}Detecting Near-bipartite Networks}{121}{section.6.4}
+\contentsline {section}{\numberline {6.5}Summary}{122}{section.6.5}
+\contentsline {chapter}{\numberline {7}Conclusion}{123}{chapter.7}
+\contentsline {section}{\numberline {7.1}Findings}{123}{section.7.1}
+\contentsline {paragraph}{New Datasets}{123}{section*.63}
+\contentsline {paragraph}{Spectral Evolution Model}{124}{section*.64}
+\contentsline {paragraph}{New Link Prediction Methods}{124}{section*.65}
+\contentsline {paragraph}{Learning Spectral Transformations}{124}{section*.66}
+\contentsline {paragraph}{Signed Laplacian Matrix}{124}{section*.67}
+\contentsline {section}{\numberline {7.2}Outlook}{124}{section.7.2}
+\contentsline {paragraph}{Nonorthogonal and Nondiagonal Decompositions}{124}{section*.68}
+\contentsline {paragraph}{Link Prediction Algebra}{125}{section*.69}
+\contentsline {paragraph}{Semantic Networks}{125}{section*.70}
+\contentsline {chapter}{\numberline {A}List of Datasets}{127}{appendix.A}
+\contentsline {chapter}{\numberline {B}Complete Experimental Results}{131}{appendix.B}
+\contentsline {chapter}{\numberline {C}Decomposing Large, Sparse Matrices}{137}{appendix.C}
+\contentsline {paragraph}{Adjacency Matrix}{137}{section*.71}
+\contentsline {paragraph}{Laplacian Matrix}{137}{section*.72}
+\contentsline {paragraph}{Normalized Adjacency Matrix}{138}{section*.73}
+\contentsline {chapter}{Bibliography}{i}{section*.74}
+\contentsline {chapter}{Index}{xi}{section*.76}
+\contentsline {chapter}{Glossary of Symbols}{xiii}{appendix*.77}

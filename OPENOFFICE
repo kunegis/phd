@@ -1,0 +1,3 @@
+
+* To remove the spurious corner dots in the PDF export of Impress files,
+  disable the corner style on the objects in question.

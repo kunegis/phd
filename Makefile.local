@@ -1,0 +1,41 @@
+#
+# Makefile for everything that can be built when the whole kunegis/ SVN
+# directory is available.  
+#
+
+ifneq (1,$(NOPDF))
+thesis.pdf: 
+	SRC_EPS_DIR=img-eps DST_PDF_DIR=img-eps DISABLE_SAVE_EPS=1 ./mkimg 
+	SRC_SVG_DIR=img-svg DST_PDF_DIR=img-svg DISABLE_SAVE=1 ./mkimg
+	SRC_EPS_DIR=../projects/signed_graph_drawing/plot DST_PDF_DIR=img-sgd ./mkimg
+	SRC_PDF_DIR=../paper/network_survey/img-svg DST_PDF_DIR=img-ns-svg ./mkimg
+	SRC_PDF_DIR=../paper/hyperbolic_sine/img-ps DST_PDF_DIR=img-hs-ps ./mkimg
+	rm -f *.aux *.log *.out *.bbl *.blg
+	pdflatex -file-line-error -halt-on-error thesis.tex
+	bibtex thesis
+	makeindex thesis
+	pdflatex -file-line-error -halt-on-error thesis.tex
+	pdflatex -file-line-error -halt-on-error thesis.tex
+	pdflatex -file-line-error -halt-on-error thesis.tex
+endif
+
+NOPDF=1
+include Makefile
+
+network-categories.tex:  ../paper/network_survey/network-categories.tex
+	{ echo '% DO NOT EDIT--COPIED FROM NETWORK_SURVEY' ; cat ../paper/network_survey/network-categories.tex ; } >network-categories.tex
+
+category-descriptions.tex:  ../paper/network_survey/category-descriptions.tex
+	{ echo '% DO NOT EDIT--COPIED FROM NETWORK_SURVEY' ; cat ../paper/network_survey/category-descriptions.tex ; } >category-descriptions.tex 
+
+property-legend.tex:  ../paper/network_survey/property-legend.tex
+	{ echo '% DO NOT EDIT--COPIED FROM NETWORK_SURVEY' ; cat ../paper/network_survey/property-legend.tex ; } >property-legend.tex 
+
+number.tex:  ../paper/network_survey/number.tex
+	cp ../paper/network_survey/number.tex $@
+Number.tex:  ../paper/network_survey/Number.tex
+	cp ../paper/network_survey/Number.tex $@
+
+$(BIBFILES):  %.bib:  ../bibtex/%.bib
+	cp ../bibtex/$*.bib .
+

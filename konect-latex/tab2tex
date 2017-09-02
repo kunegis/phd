@@ -1,0 +1,36 @@
+#! /bin/sed -rf
+# -*-shell-script-*-
+#
+# Convert a table in Tab format into a Latex table. 
+#
+
+# Remove '#'
+1s,#,,
+
+# Remove final tab
+s,\t$,,
+
+# Highlight best
+s,	\{,	\\bf{,g
+
+# Put codes in \textsf{}
+s,\[\[,\\textsf{,g
+s,\]\],},g
+
+# Replace NaN by dashes
+s,\bNaN\b,---,g
+
+# Replace tab by latex separator
+s,\t, \& ,g
+
+# Replace underscore by dash in names
+s,_\{([^}]+)\},\\ensuremath\{\_\{\\textrm\{\1\}\}\},g
+
+# Add latex end-of-line marker
+s,([^=])$,\1 \\\\,
+
+# Citation
+s,\[,\\cite{,g
+s,\],\},g
+
+

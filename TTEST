@@ -1,0 +1,30 @@
+
+% A-EXP > A-NEU 
+% A-POLY = A-POLYN
+% A-EXP = N-EXP
+% N-COM > L-COM 
+% A-NEU > A-RR
+% N-EXP > N-NEU
+% L-COM = L-REG
+% L-REG = L-HEAT 
+% A-EXP > X-SQU
+% X-ABS = X-SQU
+% P-PA = P-JAC
+% P-PA = P-AA
+% A-EXP = A-TRI
+% N-POLY = N-POLYN
+% L-POLY = L-REG
+% A-EXP = A-POLY
+% A-POLY = N-POLY
+% N-COM > N-NEU 
+% P-PA < A-EXP 
+% A-EXP = N-COM 
+% N-COM > N-EXP 
+% N-COM = A-POLYN
+% A-POLYN = A-EXP 
+% A-POLYN > X-ABS
+% N-EXP = A-NEU
+% A-POLYN > L-REG
+% A-POLYN > P-AA 
+
+

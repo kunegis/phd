@@ -1,0 +1,55 @@
+#! /usr/bin/perl -w
+#
+# Highlight highest number on each line for Latex tables.
+#
+# INPUT		Tab-separated numbers
+# OUTPUT	The same number with the highest highlighted using { } 
+#
+# Lines beginning with # are passed through. 
+#
+
+use strict; 
+
+use List::Util qw(max);
+
+my $epsilon = 0.001; 
+
+while (<>)
+{
+    if (/^#/)
+    {
+	print;
+	next; 
+    }
+
+    chomp; 
+    my @numbers = split /\t/; 
+
+    my @only_numbers = grep /^[0-9\.e]+$/, @numbers; 
+
+    my $maximum = max @only_numbers; 
+    
+    foreach my $number (@numbers) 
+    {
+	if ($number =~ /^[0-9.e]+$/) 
+	{
+	    my $is_largest =  $number + $epsilon > $maximum; 
+	    print "{" if $is_largest; 
+	    print "$number"; 
+	    print "}" if $is_largest; 
+	    print "\t"; 
+	}
+	else 
+	{
+	    # if ($number =~ /^SIZE:/)
+	    # {
+	    # 	$number =~ s/SIZE://; 
+	    # 	$number =~ s/\d{1,3}(?=(\d{3})+(?!\d))/$&,/g; 
+	    # }
+	    print "$number\t"; 
+	}
+    }
+
+    print "\n"; 
+}
+

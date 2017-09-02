@@ -1,0 +1,55 @@
+% DO NOT EDIT--COPIED FROM NETWORK_SURVEY
+
+\newcommand{\wSymbol}{2pt}
+\setlength{\tabcolsep}{3.0pt}
+  \begin{tabular}{ l l l p{\wSymbol}p{\wSymbol}p{\wSymbol}p{\wSymbol}
+      @{\hspace{0.3cm}} p{\wSymbol}p{\wSymbol}p{\wSymbol}p{\wSymbol}p{8pt} l r}   
+    \toprule
+     & \textbf{Links} & \textbf{Nodes} &
+    \multicolumn{9}{l}{\textbf{Properties}} & \textbf{Applications} & \textbf{Count} \\
+    \midrule
+    \textbf{Authorship} & (Co-)authorship & Authors, works & U & &
+    B && $-$&$=$&&& \Clocklogo &
+    Topic analysis & \input{count-Authorship} \\  
+    \hline
+    \textbf{Communication} & Message & Persons, items & U& D& B& &
+    $-$&$=$& && \Clocklogo &
+    Link prediction & \input{count-Communication} \\
+    \hline
+    \textbf{Co-occurrence} & Co-occurrence & Items & & D 
+    &&& $-$ &&&&& Classification,
+    clustering & \input{count-Co-occurrence} \\
+    \hline
+    \textbf{Features} & Has-feature & Objects, features & &&
+    B && $-$&$=$ &&&&
+    Classification & \input{count-Features} \\
+    \hline
+    \textbf{Folksonomy} & Tag assignment & Users, tags, items &
+    &&& T &$-$& $=$&&& \Clocklogo & Trend
+    analysis & \input{count-Folksonomy} \\ 
+    \hline
+    \textbf{Interaction} & Event & Entities &
+    U &D &B && &$=$&&& \Clocklogo & Link prediction & \input{count-Interaction} \\
+    \hline
+    \textbf{Physical} & Connection & Nodes & U &D &&& $-$& $=$&
+    && \Clocklogo & Routing & \input{count-Physical} \\
+    \hline
+    \textbf{Ratings} & Rating & Users, items & & D& B& &
+    && $\pm$& $\APLstar$ & \Clocklogo &
+    Recommendation & \input{count-Ratings} \\
+    \hline
+    \textbf{Reference} & Citation, hyperlink & Documents & & D&
+    && $-$& &&& \Clocklogo
+    & Ranking & \input{count-Reference} \\
+    \hline
+    \textbf{Social} & Friendship & Persons & U& D&&&
+    $-$&&$\pm$ && \Clocklogo &
+    Communities & \input{count-Social} \\  
+    \hline
+    \textbf{Trust} & Trust & Persons & & D &&&
+    $-$& $=$ &$\pm$ &&\Clocklogo &
+    Security & \input{count-Trust} \\  
+    \midrule
+    \multicolumn{13}{l}{\emph{Total}} & \input{count-all} \\
+    \bottomrule
+  \end{tabular}

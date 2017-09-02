@@ -1,0 +1,31 @@
+#! /bin/sh
+#
+# Generate the tab-separated evaluation results for unipartite datasets
+# (part 1).  
+#
+
+set -e
+
+TMP_FILE=${TMP:-/tmp}/`basename $0`.$$
+
+CORPORA="`cat dataset-list-eval`"
+export CORPORA="`echo $CORPORA`"
+
+export OUTPUT=$TMP_FILE.out
+
+export FILTER_RELATIONSHIP_FORMAT="6"
+
+export METHODS_PATHA="adad" 
+export METHODS_SYM="polyn exp neu" 
+export METHODS_SYM_N="polyn exp rat lap" 
+export METHODS_LAPS="lres lrat lexp"
+export METHODS_EXTR="sne_squ" 
+
+export SHORT_NAME=1
+export HIDE_SIZE=1
+
+cd ../webstore/analysis/
+
+../matlab/matlab result2 
+
+cat $TMP_FILE.out

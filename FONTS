@@ -1,0 +1,44 @@
+
+
+== The fonts used everywhere in the thesis ==
+
+(This list is useful outside Latex for making figures.) 
+
+Text, \textnormal, \mathrm, numbers in math mode:  computer
+modern (LMRoman10, cmr10)  
+
+Italic, math:  computer modern italic (cmmi10) (+2pt font size needed);
+FreeSerif (for lowercase greek)   
+
+Text in plots:  Helvetica, Arial, Liberation Sans (in Inkscape) 
+
+Numbers in plots:  FreeSans (in Inkscape). 
+
+mathbf:  cmr10+bold; LMRomanDemi10. (for \Lambda, this has to be
+LMRomanDemi10 in +2pt larger font) 
+
+== OpenOffice.org ==
+
+* Math: cmr10, LMRoman10 
+* Math italic:  cmmi10, LMRoman10 italic
+* Math bold:  LMRomanDemi10, LMRoman10 bold 
+* Plot text:  Helvetica
+* greek letters:  cmmi10 (they are not at their standard positions)
+* symbols:  cmsy10 
+
+== Latex ==
+
+In text: 
+
+\emph - an alternative to quoting
+\textsf - codes for datasets, algorithms, etc. 
+\textbf - table headers
+
+In math:
+
+\textnormal - in math mode for "if", "when", etc.
+\mathrm - for special functions (sgn, ...), indexes that serve as
+  names (K_new, K_old), signs such as:  transpose (^T), Frobenius norm
+  (_F), etc. 
+\mathit - multiletter variable names
+\mathbf - vectors and matrices

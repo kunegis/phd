@@ -1,0 +1,26 @@
+#! /bin/sh
+#
+# PARAMETERS
+#	$1 bar chart name
+#
+
+set -e
+
+TMP_FILE=${TMP:-/tmp}/`basename $0`.$$
+
+CORPORA="`cat eval-datasets.base`"
+export CORPORA
+
+export OUTPUT=$TMP_FILE.out
+export OUTPUT_BAR="`pwd`/$1"
+
+export METHODS_SYM="poly2 poly polyn exp neu dim_lin" 
+
+export HIDE_SIZE=1
+export HIDE_TYPE_NAME=1
+
+cd ../webstore/analysis/
+
+../matlab/matlab result2 
+
+cat $TMP_FILE.out

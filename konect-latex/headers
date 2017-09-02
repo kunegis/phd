@@ -1,0 +1,122 @@
+#! /bin/bash
+#
+# Replace leading network type strings by headers, grouping related
+# networks.  Output only the lines of the tabular environment. 
+#
+# PARAMETERS
+#	$ALIGN	(optional) The align string for tables, e.g. "l l r";
+#		default is all on left
+#	$PREHEADER_FILE (optional)  Latex code file for a line coming before the
+#		header line, e.g. to group methods.  Should be
+#		terminated by \\ and may contain multiple lines 
+#	$HEADER	(optional) The header line, with fields separated by
+#		"&"; when not given, the header must be given in the
+#		first line of input.  The header line must end in \\ 
+#	$LABEL  (optional) Latex label to use for the table
+#	$CAPTION (optional) Latex caption, not ending in a period
+#
+# INPUT		Latex with leading type string seratated by space
+# OUTPUT	Latex with subheaders, sorted
+#
+
+#
+# This script uses /bin/bash instead of /bin/sh because using /bin/sh
+# leads to a weird error where only the first field of each line is
+# read.  Setting $IFS did not help.  (on Ubuntu) 
+#
+
+set -e
+
+if [ -z "$CAPTION" ]
+then
+    CAPTION='Results'
+fi
+
+if [ -z "$HEADER" ] 
+then
+    # Use -r to avoid stripping backslashes. 
+    read -r HEADER
+fi
+
+if [ -z "$ALIGN" ]
+then
+    ALIGN="`echo "$HEADER" | sed -re 's,[^&]+,l,g;s,&,,g'`"
+fi
+
+count="`echo $ALIGN | sed -re 's,\s,,g;s,^.,,' | wc -c`"
+
+echo '
+\begin{longtable}{ '"$ALIGN"' }
+
+\caption['"$CAPTION"']{'"$CAPTION"'.}  \\
+
+'
+
+[ "$LABEL" ] && echo '\label{'"$LABEL"'}'
+
+if [ "$PREHEADER_FILE" ]
+then
+  cat "$PREHEADER_FILE"
+fi
+
+echo '
+%\hline 
+'"$HEADER"' 
+\hline
+
+\endfirsthead
+'
+
+if [ "$PREHEADER_FILE" ]
+then
+  cat "$PREHEADER_FILE"
+fi
+
+echo '
+\hline
+'"$HEADER"' 
+\hline
+
+\endhead
+
+\hline
+\multicolumn{'"$count"'}{c}{\textit{Continued on next page}} \\* 
+\hline
+
+\endfoot
+
+\hline \hline
+\endlastfoot
+'
+
+
+close='
+      \hline
+    \end{longtable} 
+'
+
+mid=''
+
+last_type=undefined
+
+sort |
+while read -r line
+do
+    type="`echo "$line" | sed -re 's,(^[^ :]+):.*$,\1,'`"
+    if [ "$type" != "$last_type" ]
+    then
+	if [ "$last_type" != undefined ] 
+	then
+	    echo "$mid"
+	fi
+    	last_type="$type"
+    	echo '\hline'
+        echo '\multicolumn{'"$count"'}{|l|}{\textcolor{color'"$type"'}{\raisebox{\boxRaiseAmount}{$\blacksquare$}} \textbf{'"$type"'}} \\'
+	echo '\hline'
+    fi
+    echo "$line" | sed -re 's,^[^ ]+ ,,'
+done
+
+echo "$close"
+
+

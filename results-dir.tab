@@ -1,0 +1,10 @@
+# Dat.          	P-AA 	A-EXP	A-SINH	A-SINH
+Social:Slashdot-Zoo Slashdot Zoo ([[SZ]])	0.356	0.385	0.369	0.338
+Communication:English-Wikipedia English Wikipedia ([[WK]])	0.640	0.673	0.663	0.649
+Ratings:Líbímseti.cz Líbímseti.cz ([[LI]])	0.507	0.628	0.639	0.430
+Reference:CiteSeer CiteSeer ([[CS]])	0.643	0.684	0.678	0.674
+Reference:English-Wikipedia English Wikipedia ([[WP]])	NaN	0.663	0.614	0.619
+Reference:Google Google ([[GO]]) 	0.689	0.658	0.679	0.672
+Reference:US-patents US patents ([[PC]])	NaN	0.646	0.664	0.652
+Reference:World-Wide-Web World Wide Web ([[W3]])	0.687	0.674	0.681	0.683
+Trust:English-Wikipedia English Wikipedia ([[EL]])	0.800	0.816	0.788	0.807

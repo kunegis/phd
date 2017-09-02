@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: thesis.aux
+The style file: alpha.bst
+Database file #1: kunegis.bib
+Database file #2: web.bib
+Database file #3: ref.bib
+Database file #4: unpublished.bib
+Database file #5: tub.bib
+Warning--there's a number but no volume in b661
+Warning--can't use both author and editor fields in b564
+You've used 173 entries,
+            2543 wiz_defined-function locations,
+            1418 strings with 28170 characters,
+and the built_in function-call counts, 76923 in all, are:
+= -- 7704
+> -- 3633
+< -- 103
++ -- 1300
+- -- 1261
+* -- 5363
+:= -- 12127
+add.period$ -- 522
+call.type$ -- 173
+change.case$ -- 1118
+chr.to.int$ -- 171
+cite$ -- 175
+duplicate$ -- 3179
+empty$ -- 5750
+format.name$ -- 1465
+if$ -- 16062
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 180
+newline$ -- 872
+num.names$ -- 519
+pop$ -- 1190
+preamble$ -- 1
+purify$ -- 1308
+quote$ -- 0
+skip$ -- 2784
+stack$ -- 0
+substring$ -- 4567
+swap$ -- 763
+text.length$ -- 103
+text.prefix$ -- 42
+top$ -- 0
+type$ -- 1316
+warning$ -- 2
+while$ -- 771
+width$ -- 178
+write$ -- 2218
+(There were 2 warnings)

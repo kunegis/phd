@@ -1,0 +1,136 @@
+#
+# Rules that depend on external files and Matlab.  Only works when the whole
+# kunegis/ directory has been checked out. 
+# 
+
+all-master:  thesis.pdf thesis-print.pdf 
+
+thesis.pdf:   \
+  $(foreach I, all Authorship Communication Co-occurrence Features Folksonomy Interaction Physical Ratings Reference Social Trust, count-$(I).tex) \
+  results-all-bipartite.tex results-all-square1.tex results-all-square2.tex \
+  results-stat.tex img-eps/randspec.eps  \
+  $(foreach I, base_a base_n base_l base_best bip dir sign bipsign, img-eps/resultsbar-$(I).eps) \
+  bestcurve.tex bestcurve-base.tex bestcurve-signed.tex bestcurve-bipartite.tex bestcurve-bipsigned.tex \
+  bestcurve-directed.tex  
+	SRC_EPS_DIR=img-eps DST_PDF_DIR=img-eps DISABLE_SAVE_EPS=1 ./mkimg 
+	SRC_SVG_DIR=img-svg DST_PDF_DIR=img-svg DISABLE_SAVE=1 ./mkimg
+	SRC_EPS_DIR=../projects/signed_graph_drawing/plot DST_PDF_DIR=img-sgd ./mkimg
+	SRC_SVG_DIR=../paper/network_survey/img-svg DST_PDF_DIR=img-ns-svg ./mkimg
+	SRC_PDF_DIR=../paper/hyperbolic_sine/img-ps DST_PDF_DIR=img-hs-ps ./mkimg
+	SRC_EPS_DIR=../webstore/analysis/plot DST_PDF_DIR=img-st ./mkimg 
+	rm -f *.aux *.log *.out *.bbl *.blg
+	pdflatex -file-line-error -halt-on-error thesis.tex
+	bibtex thesis
+	makeindex thesis
+	pdflatex -file-line-error -halt-on-error thesis.tex
+	pdflatex -file-line-error -halt-on-error thesis.tex
+	pdflatex -file-line-error -halt-on-error thesis.tex
+
+
+NOPDF=1
+include Makefile.local
+
+ERROR_GROUP=MAP
+export ERROR_GROUP
+
+# The link prediction methods we exclude from _all_ bestcurve tables 
+METHOD_NAME_EXCLUDE_LIST=sne_abs_x|sne_squ_x|polyn0|like|extra|dim_poly2|dim_polys|dim_polys2|id|lin
+export METHOD_NAME_EXCLUDE_LIST
+
+#
+# List of datasets
+#
+
+datasets.dat:  mkdatasets dataset-list \
+   ../webstore/latex/table.m  \
+   ../webstore/analysis/m/network_category.m \
+   ../webstore/analysis/corpus_description.m \
+   ../webstore/analysis/corpus_short_name.m  \
+   ../webstore/analysis/corpus_long_name.m  \
+   ../webstore/analysis/corpus_cite.m  \
+   ../webstore/analysis/corpus_url.m  \
+   ../webstore/latex/headers 
+	./mkdatasets
+
+
+datasets.tex:  datasets.dat ../webstore/latex/tab2tex ../webstore/latex/headers
+	<datasets.dat ../webstore/latex/tab2tex | \
+          ALIGN="l l l l l r r" HEADER='Ref. & Prop. & Code & Dataset & Node and edge types & $$|V|$$ & $$|E|$$ or $$|A|$$ \\' LABEL='tab:datasets' CAPTION="The list of all `cat number.tex` datasets" \
+          ../webstore/latex/headers >$@
+
+count-all.tex:  datasets.dat
+	>$@ wc -l <datasets.dat
+
+count-%.tex: datasets.dat
+	<datasets.dat grep "^$*:" | wc -l >$@
+
+# Space separated list of datasets
+dataset-list:  ../webstore/analysis/datasets.list
+	echo "`<../webstore/analysis/datasets.list cut -f 1 -d ' '`" >$@
+
+# Datasets used in the complete evaluation results 
+dataset-list-eval:  ../webstore/analysis/datasets.list
+	echo "`grep -vE ' (xxxl|xxl|xl) ' ../webstore/analysis/datasets.list | cut -f 1 -d ' '`" >$@
+
+#
+# Results
+#
+results-%.tex:  results-%.tab ../webstore/latex/tab2tex ../webstore/latex/headers \
+  ../webstore/latex/highlight_best
+	<results-$*.tab ../webstore/latex/highlight_best | \
+          ../webstore/latex/tab2tex | \
+          CAPTION="`cat results-label-$*.tex`" LABEL=results-$* ../webstore/latex/headers >$@
+
+results-all-square2.tex:  results-all-square2.tab ../webstore/latex/tab2tex ../webstore/latex/headers \
+  ../webstore/latex/highlight_best preheader-square2.tex
+	<results-all-square2.tab ../webstore/latex/highlight_best | \
+          ../webstore/latex/tab2tex | \
+          PREHEADER_FILE=preheader-square2.tex CAPTION="`cat results-label-all-square2.tex`" \
+          LABEL=results-all-square2 ../webstore/latex/headers >$@
+
+results-%.tab img-eps/resultsbar-%.eps: \
+  ./mkresults-% ../webstore/analysis/result2.m ../webstore/analysis/dat/ \
+  dataset-list ../webstore/analysis/spec.m 
+	./mkresults-$* img-eps/resultsbar-$*.eps >results-$*.tab
+
+results-base_a.tab img-eps/resultsbar-base_a.eps:  eval-datasets.base
+results-base_n.tab img-eps/resultsbar-base_n.eps:  eval-datasets.base
+results-base_l.tab img-eps/resultsbar-base_l.eps:  eval-datasets.base
+results-base_best.tab img-eps/resultsbar-base_best.eps:  eval-datasets.base
+results-dir.tab img-eps/resultsbar-dir.eps:              eval-datasets.dir
+results-all-square1.tab results-all-square2.tab results-all-bipartite.tab:  dataset-list-eval
+
+results-stat.tex:  results-stat.tab ../webstore/latex/tab2tex ../webstore/latex/headers 
+	<results-stat.tab ../webstore/latex/tab2tex | \
+          LABEL="tab:results-stat" CAPTION="Statistics for all `cat number.tex` datasets" \
+          ../webstore/latex/headers >$@
+
+#
+# Table of best fitting curves by dataset
+#
+
+bestcurve.tex:  bestcurve.m bestcurve_one.m dataset-list-eval
+	NETWORKS="`cat dataset-list-eval`" OUTPUT=$@ ../webstore/matlab/matlab bestcurve
+
+bestcurve-base.tex:  bestcurve.m bestcurve_one.m dataset-list eval-datasets.base
+	NETWORKS="`cat eval-datasets.base`" METHOD_NAME_EXCLUDE_LIST="$(METHOD_NAME_EXCLUDE_LIST)|lapodd" \
+        OUTPUT=$@ ../webstore/matlab/matlab bestcurve
+
+bestcurve-signed.tex:  bestcurve.m bestcurve_one.m dataset-list
+	NETWORKS="slashdot-zoo epinions libimseti elec" \
+        METHOD_NAME_EXCLUDE_LIST="$(METHOD_NAME_EXCLUDE_LIST)|sinh|neuodd" \
+        DECOMPOSITION_EXCLUDE_LIST="asym|asymf|back|backf" \
+        OUTPUT=$@ ../webstore/matlab/matlab bestcurve
+
+bestcurve-bipartite.tex:  bestcurve.m bestcurve_one.m dataset-list
+	NETWORKS="edit-dewiki edit-frwiki github dbpedia-starring filmtipset_comment wiki-en-cat bibsonomy-2ti citeulike-ui movielens-10m_ti munmun_twitterex_ui pics_ut lastfm_song " OUTPUT=$@ ../webstore/matlab/matlab bestcurve
+
+bestcurve-bipsigned.tex:  bestcurve.m bestcurve_one.m dataset-list
+	NETWORKS="bx epinions-rating filmtipset_rating jester movielens-10m_rating netflix" OUTPUT=$@ ../webstore/matlab/matlab bestcurve
+
+bestcurve-directed.tex:  bestcurve.m bestcurve_one.m dataset-list eval-datasets.dir
+	NETWORKS="`cat eval-datasets.dir`" OUTPUT=$@ ../webstore/matlab/matlab bestcurve
+
+img-eps/randspec.eps:  randspec.m
+	../webstore/matlab/matlab randspec
+

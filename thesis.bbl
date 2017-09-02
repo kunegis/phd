@@ -1,0 +1,978 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{BPSDGA04}
+
+\bibitem[AA01]{b475}
+Lada Adamic and Eytan Adar.
+\newblock Friends and neighbors on the {Web}.
+\newblock {\em Social Networks}, 25:211--230, 2001.
+
+\bibitem[ABK{\etalchar{+}}08]{b642}
+Sören Auer, Christian Bizer, Georgi Kobilarov, Jens Lehmann, Richard Cyganiak,
+  and Zachary Ives.
+\newblock {DBpedia}: A nucleus for a web of open data.
+\newblock In {\em Proc. Int. Semantic Web Conf.}, pages 722--735, 2008.
+
+\bibitem[AJB99]{b396}
+Réka Albert, Hawoong Jeong, and Albert-László Barab\'{a}si.
+\newblock The diameter of the {W}orld {W}ide {W}eb.
+\newblock {\em Nature}, 401:130, 1999.
+
+\bibitem[BA99]{b439}
+Albert-László Barabási and Réka Albert.
+\newblock Emergence of scaling in random networks.
+\newblock {\em Science}, 286(5439):509--512, 1999.
+
+\bibitem[BBPSV04]{b608}
+Alain Barrat, Marc Barthélemy, Romualdo Pastor-Satorras, and Alessandro
+  Vespignani.
+\newblock The architecture of complex weighted networks.
+\newblock {\em Proc. Natl. Acad. Sci. USA}, 101(11):3747--3752, 2004.
+
+\bibitem[BCH03]{b397}
+Peter Bailey, Nick Craswell, and David Hawking.
+\newblock Engineering a multi-purpose test collection for {W}eb retrieval
+  experiments.
+\newblock {\em Information Processing and Management}, 39(6):853--871, 2003.
+
+\bibitem[BFK01]{b319}
+Zhiqiang Bi, Christos Faloutsos, and Flip Korn.
+\newblock The `{DGX}' distribution for mining massive, skewed data.
+\newblock In {\em Proc. Int. Conf. on Knowledge Discovery and Data Mining},
+  pages 17--26, 2001.
+
+\bibitem[BFL06]{b400}
+Ulrik Brandes, Daniel Fleischer, and Jürgen Lerner.
+\newblock Summarizing dynamic bipolar conflict structures.
+\newblock {\em Trans. on Visualization and Computer Graphics},
+  12(6):1486--1499, 2006.
+
+\bibitem[BHK98]{b25}
+John~S. Breese, David Heckerman, and Carl Kadie.
+\newblock Empirical analysis of predictive algorithms for collaborative
+  filtering.
+\newblock In {\em Proc. Conf. on Uncertainty in Artificial Intelligence}, pages
+  43--52, 1998.
+
+\bibitem[BKLR09]{b390}
+Ulrik Brandes, Patrick Kenis, Jürgen Lerner, and Denise~van Raaij.
+\newblock Network analysis of collaboration structure in {W}ikipedia.
+\newblock In {\em Proc. Int. World Wide Web Conf.}, pages 731--740, 2009.
+
+\bibitem[BL04]{b661}
+Phillip Bonacich and Paulette Lloyd.
+\newblock Calculating status with negative relations.
+\newblock {\em Social Networks}, (26):331--338, 2004.
+
+\bibitem[BL07]{b520}
+James Bennett and Stan Lanning.
+\newblock The {Netflix} {Prize}.
+\newblock In {\em Proc. KDD Cup}, pages 3--6, 2007.
+
+\bibitem[BLG98]{b524}
+Kurt Bollacker, Steve Lawrence, and C.~Lee Giles.
+\newblock {CiteSeer}: An autonomous {Web} agent for automatic retrieval and
+  identification of interesting publications.
+\newblock In {\em Proc. Int. Conf. on Autonomous Agents}, pages 116--123, 1998.
+
+\bibitem[BN02]{b287}
+Mikhail Belkin and Partha Niyogi.
+\newblock {L}aplacian eigenmaps and spectral techniques for embedding and
+  clustering.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  585--591, 2002.
+
+\bibitem[BNJL03]{b358}
+David Blei, Andrew Ng, Michael Jordan, and John Lafferty.
+\newblock Latent {D}irichlet allocation.
+\newblock {\em J. Machine Learning Research}, 3:993--1022, 2003.
+
+\bibitem[Bol98]{b116}
+Béla Bollobás.
+\newblock {\em Modern Graph Theory}.
+\newblock Springer, 1998.
+
+\bibitem[Bon87]{b659}
+Phillip Bonacich.
+\newblock Power and centrality: A family of measures.
+\newblock {\em American J. of Sociology}, 92(5):1170--1182, 1987.
+
+\bibitem[BP98]{b133}
+Sergey Brin and Lawrence Page.
+\newblock The anatomy of a large-scale hypertextual {Web} search engine.
+\newblock {\em Computer Networks and ISDN Systems}, 30(1--7):107--117, 1998.
+
+\bibitem[BP07]{b311}
+Lukáš Brožovský and Václav Petříček.
+\newblock Recommender system for online dating service.
+\newblock In {\em Proc. Znalosti}, pages 29--40, 2007.
+
+\bibitem[BPSDGA04]{b571}
+Marián Boguñá, Romualdo Pastor-Satorras, Albert Díaz-Guilera, and Alex
+  Arenas.
+\newblock Models of social networks based on social distance attachment.
+\newblock {\em Phys. Rev. E}, 70(5):056122, 2004.
+
+\bibitem[Bra97]{b366}
+Andrew~P. Bradley.
+\newblock The use of the area under the {ROC} curve in the evaluation of
+  machine learning algorithms.
+\newblock {\em Pattern Recognition}, 30:1145--1159, 1997.
+
+\bibitem[BRZ11]{b654}
+Daniel Boley, Gyan Ranjan, and Zhi-Li Zhang.
+\newblock Commute times for a directed graph using an asymmetric {Laplacian}.
+\newblock {\em Linear Algebra and Applications}, 435:224--242, 2011.
+
+\bibitem[Cel10]{lastfm}
+{\`O}scar Celma.
+\newblock Music recommendation datasets for research.
+\newblock
+  \url{http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-1K.ht%
+ml}, May 2010.
+\newblock Version 1.0.
+
+\bibitem[Cha09]{github}
+Scott Chacon.
+\newblock The 2009 {GitHub} contest.
+\newblock \url{http://github.com/blog/466-the-2009-github-contest}, July 2009.
+
+\bibitem[CHC{\etalchar{+}}07]{b532}
+Augustin Chaintreau, Pan Hui, Jon Crowcroft, Christophe Diot, Richard Gass, and
+  James Scott.
+\newblock Impact of human mobility on opportunistic forwarding algorithms.
+\newblock {\em IEEE Trans. on Mobile Computing}, 6(6):606--620, 2007.
+
+\bibitem[Chu97]{b285}
+Fan Chung.
+\newblock {\em Spectral Graph Theory}.
+\newblock American Math. Society, 1997.
+
+\bibitem[Chu05]{b264}
+Fan Chung.
+\newblock {Laplacians} and the {Cheeger} inequality for directed graphs.
+\newblock {\em Ann. of Combinatorics}, 9(1):1--19, 2005.
+
+\bibitem[CJ93]{b89}
+Rama Chellappa and Anil Jain.
+\newblock {\em {Markov} Random Fields: Theory and Application}.
+\newblock Academic Press, 1993.
+
+\bibitem[Cli73]{b650}
+William~K. Clifford.
+\newblock Preliminary sketch of quaternions.
+\newblock {\em Proc. London Math. Soc.}, 4(1):381--395, 1873.
+
+\bibitem[CLS{\etalchar{+}}10]{b629}
+Munmun~De Choudhury, Yu-Ru Lin, Hari Sundaram, K.~Selçuk Candan, Lexing Xie,
+  and Aisling Kelliher.
+\newblock How does the data sampling strategy impact the discovery of
+  information diffusion in social media?
+\newblock In {\em Proc. Conf. on Weblogs and Social Media}, pages 34--41, 2010.
+
+\bibitem[CRS97]{b117}
+Dragoš Cvetković, Peter Rowlinson, and Slobodan Simić.
+\newblock {\em Eigenspaces of Graphs}.
+\newblock Cambridge University Press, 1997.
+
+\bibitem[CS97]{b190}
+Pavel Chebotarev and Elena Shamis.
+\newblock The matrix-forest theorem and measuring relations in small social
+  groups.
+\newblock {\em Automation and Remote Control}, 58(9):1505--1514, 1997.
+
+\bibitem[CS98]{b191}
+Pavel Chebotarev and Elena Shamis.
+\newblock On proximity measures for graph vertices.
+\newblock {\em Automation and Remote Control}, 59(10):1443--1459, 1998.
+
+\bibitem[CSJS09]{b565}
+Munmun~De Choudhury, Hari Sundaram, Ajita John, and Dorée~Duncan Seligmann.
+\newblock Social synchrony: Predicting mimicry of user actions in online social
+  media.
+\newblock In {\em Proc. Int. Conf. on Computational Science and Engineering},
+  pages 151--158, 2009.
+
+\bibitem[CSN09]{b462}
+Aaron Clauset, Cosma~Rohilla Shalizi, and M.~E.~J. Newman.
+\newblock Power-law distributions in empirical data.
+\newblock {\em SIAM Review}, 51(4):661--703, 2009.
+
+\bibitem[CWS03]{b550}
+Olivier Chapelle, Jason Weston, and Berhard Schölkopf.
+\newblock Cluster kernels for semi-supervised learning.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  585--592, 2003.
+
+\bibitem[DA05]{b572}
+Jordi Duch and Alex Arenas.
+\newblock Community detection in complex networks using extremal optimization.
+\newblock {\em Phys. Rev. E}, 72(2):027104, 2005.
+
+\bibitem[Dav09]{b558}
+Ian Davidson.
+\newblock Knowledge driven dimension reduction for clustering.
+\newblock In {\em Proc. Int. Conf. on Research and Development in Information
+  Retrieval}, pages 1034--1039, 2009.
+
+\bibitem[DGK04]{b246}
+Inderjit~S. Dhillon, Yuqiang Guan, and Brian Kulis.
+\newblock Kernel $k$-means: Spectral clustering and normalized cuts.
+\newblock In {\em Proc. Int. Conf. Knowledge Discovery and Data Mining}, pages
+  551--556, 2004.
+
+\bibitem[DM58]{b667}
+Andrew Dulmage and Nathan Mendelsohn.
+\newblock Coverings of bipartite graphs.
+\newblock {\em Canadian J. Math.}, 10:517--534, 1958.
+
+\bibitem[DM96]{b284}
+Patrick Doreian and Andrej Mrvar.
+\newblock A partitioning approach to structural balance.
+\newblock {\em Social Networks}, 18:149--168, 1996.
+
+\bibitem[DR94]{b362}
+Madhav Desai and Vasant Rao.
+\newblock A characterization of the smallest eigenvalue of a graph.
+\newblock {\em Graph Theory}, 18(2):181--194, 1994.
+
+\bibitem[DS84]{b19}
+Peter~G. Doyle and J.~Laurie Snell.
+\newblock {\em Random Walks and Electric Networks}.
+\newblock Math. Ass. of America, 1984.
+
+\bibitem[EC07]{b349}
+Kevin Emamy and Richard Cameron.
+\newblock {C}ite{UL}ike: A researcher's social bookmarking service.
+\newblock {\em Ariadne}, 51, 2007.
+
+\bibitem[ER59]{b569}
+Paul Erdős and Alfréd Rényi.
+\newblock On random graphs {I}.
+\newblock {\em Publ. Math. Debrecen}, 6:290--297, 1959.
+
+\bibitem[ERV05]{b456}
+Ernesto Estrada and Juan~A. Rodríguez-Velázquez.
+\newblock Spectral measures of bipartivity in complex networks.
+\newblock {\em Phys. Rev. E}, 72(4):046105, 2005.
+
+\bibitem[ESP06]{b665}
+Nathan Eagle and Alex (Sandy)~Pentland.
+\newblock {Reality} {Mining}: Sensing complex social systems.
+\newblock {\em Personal Ubiquitous Computing}, 10(4):255--268, 2006.
+
+\bibitem[Fie73]{b652}
+Miroslav Fiedler.
+\newblock Algebraic connectivity of graphs.
+\newblock {\em Czechoslovak Math. J.}, 23(98):298--305, 1973.
+
+\bibitem[FPRS04]{b644}
+François Fouss, Alain Pirotte, Jean-Michel Renders, and Marco Saerens.
+\newblock A novel way of computing dissimilarities between nodes of a graph,
+  with application to collaborative filtering and subspace projection of the
+  graph nodes.
+\newblock In {\em Proc. European Conf. on Machine Learning}, pages 26--37,
+  2004.
+
+\bibitem[FYPS06]{b152}
+François Fouss, Luh Yen, Alain Pirotte, and Marco Saerens.
+\newblock An experimental investigation of graph kernels on a collaborative
+  recommendation task.
+\newblock In {\em Proc. Int. Conf. on Data Mining}, pages 863--868, 2006.
+
+\bibitem[GDDG{\etalchar{+}}03]{b570}
+Roger Guimerà, Leon Danon, Albert Díaz-Guilera, Francesc Giralt, and Alex
+  Arenas.
+\newblock Self-similar community structure in a network of human interactions.
+\newblock {\em Phys. Rev. E}, 68(6):065103, 2003.
+
+\bibitem[GGK03]{b619}
+Johannes Gehrke, Paul Ginsparg, and Jon Kleinberg.
+\newblock Overview of the 2003 {KDD} {Cup}.
+\newblock {\em SIGKDD Explorations}, 5(2):149--151, 2003.
+
+\bibitem[GHKZ11]{b651}
+K.~A. Germina, Shahul Hameed~K., and Thomas Zaslavsky.
+\newblock On products and line graphs of signed graphs, their eigenvalues and
+  energy.
+\newblock {\em Linear Algebra and Its Applications}, In Press, Corrected Proof,
+  2011.
+
+\bibitem[GKK03]{b606}
+Anna Goldenberg, Jeremy Kubica, and Paul Komarek.
+\newblock A comparison of statistical and machine learning algorithms on the
+  task of link completion.
+\newblock In {\em Proc. Workshop on Link Analysis for Detecting Complex
+  Behavior}, 2003.
+
+\bibitem[GKRT04]{b325}
+Ramanathan Guha, Ravi Kumar, Prabhakar Raghavan, and Andrew Tomkins.
+\newblock Propagation of trust and distrust.
+\newblock In {\em Proc. Int. World Wide Web Conf.}, pages 403--412, 2004.
+
+\bibitem[GM08]{b583}
+Michel Gondran and Michel Minoux.
+\newblock {\em Graphs, Dioids and Semirings}.
+\newblock Springer, 2008.
+
+\bibitem[GMZ03]{b320}
+Christos Gkantsidis, Milena Mihail, and Ellen Zegura.
+\newblock Spectral analysis of {Internet} topologies.
+\newblock In {\em Proc. Joint Conf. IEEE Computer and Communications
+  Societies}, pages 364--374, 2003.
+
+\bibitem[GRGP01]{b7}
+Ken Goldberg, Theresa Roeder, Dhruv Gupta, and Chris Perkins.
+\newblock {E}igentaste: A constant time collaborative filtering algorithm.
+\newblock {\em Information Retrieval}, 4(2):133--151, 2001.
+
+\bibitem[{Gro}06]{www.grouplens.org/node/73}
+{GroupLens Research}.
+\newblock {MovieLens} data sets.
+\newblock \url{http://www.grouplens.org/node/73}, October 2006.
+
+\bibitem[GSPA04]{b641}
+Roger Guimerà, Marta Sales-Pardo, and Luís A.~Nunes Amaral.
+\newblock Modularity from fluctuations in random graphs and complex networks.
+\newblock {\em Phys. Rev. E}, 70(2):025101, 2004.
+
+\bibitem[Ham97]{b662}
+Richard~W. Hamming.
+\newblock {\em The Art of Doing Science and Engineering: Learning to Learn}.
+\newblock Taylor \& Francis, 1997.
+
+\bibitem[Har53]{b355}
+Frank Harary.
+\newblock On the notion of balance of a signed graph.
+\newblock {\em Michigan Math.}, 2(2):143--146, 1953.
+
+\bibitem[HCC04]{b142}
+Zan Huang, Wingyan Chung, and Hsinchun Chen.
+\newblock A graph model for e-commerce recommender systems.
+\newblock {\em American Society for Information Science and Technology},
+  55(3):259--274, 2004.
+
+\bibitem[HH83]{b323}
+Per Hage and Frank Harary.
+\newblock {\em Structural Models in Anthropology}.
+\newblock Cambridge University Press, 1983.
+
+\bibitem[HJ94]{b668}
+Roger~A. Horn and Charles~R. Johnson.
+\newblock {\em Topics in Matrix Analysis}.
+\newblock Cambridge University Press, 1994.
+
+\bibitem[HJD{\etalchar{+}}04]{b493}
+Bo~Hu, Xin-Yu Jiang, Jun-Feng Ding, Yan-Bo Xie, and Bing-Hong Wang.
+\newblock A model of weighted network: the student relationships in a class.
+\newblock {\em ArXiv Condensed Matter e-prints}, 2004.
+
+\bibitem[HJSS06]{b346}
+Andreas Hotho, Robert Jäschke, Christoph Schmitz, and Gerd Stumme.
+\newblock {B}ib{S}onomy: A social bookmark and publication sharing system.
+\newblock In {\em Proc. Workshop on Conceptual Structure Tool
+  Interoperability}, pages 87--102, 2006.
+
+\bibitem[HJT01]{b376}
+Bronwyn~H. Hall, Adam~B. Jaffe, and Manuel Trajtenberg.
+\newblock The {NBER} patent citations data file: Lessons, insights and
+  methodological tools.
+\newblock In {\em {NBER} Working Papers 8498, National Bureau of Economic
+  Research, Inc}, 2001.
+
+\bibitem[HLEK03]{b531}
+Petter Holme, Fredrik Liljeros, Christofer~R. Edling, and Beom~Jun Kim.
+\newblock On network bipartivity.
+\newblock {\em Phys. Rev. E}, 68(5):056107, 2003.
+
+\bibitem[HLP03]{b356}
+Yaoping~P. Hou, Jiongsheng~S. Li, and Yongliang Pan.
+\newblock On the {Laplacian} eigenvalues of signed graphs.
+\newblock {\em Linear and Multilinear Algebra}, 1(51):21--30, 2003.
+
+\bibitem[Hou05]{b351}
+Yaoping~P. Hou.
+\newblock Bounds for the least {Laplacian} eigenvalue of a signed graph.
+\newblock {\em Acta Math. Sinica}, 21(4):955--960, 2005.
+
+\bibitem[Huc93]{b649}
+Joseph Hucks.
+\newblock Hyperbolic complex structures in physics.
+\newblock {\em J. Math. Phys.}, 34(12):5986--6008, 1993.
+
+\bibitem[HWSB08]{b270}
+Tad Hogg, Dennis~M. Wilkinson, Gabor Szabo, and Michael~J. Brzozowski.
+\newblock Multiple relationship types in online communities and social
+  networks.
+\newblock In {\em Proc. AAAI Spring Symposium on Social Information
+  Processing}, 2008.
+
+\bibitem[HZC07]{b140}
+Zan Huang, Daniel Zeng, and Hsinchun Chen.
+\newblock A comparison of collaborative-filtering recommendation algorithms for
+  e-commerce.
+\newblock {\em IEEE Intelligent Systems}, 22(5):68--78, 2007.
+
+\bibitem[ISKM05]{b137}
+Takahiko Ito, Masashi Shimbo, Taku Kudo, and Yuji Matsumoto.
+\newblock Application of kernels to link analysis.
+\newblock In {\em Proc. Int. Conf. on Knowledge Discovery in Data Mining},
+  pages 586--592, 2005.
+
+\bibitem[JK02]{b160}
+Kalervo Järvelin and Jaana Kekäläinen.
+\newblock Cumulated gain-based evaluation of {IR} techniques.
+\newblock {\em ACM Trans. Inf. Syst.}, 20(4):422--446, 2002.
+
+\bibitem[KA07]{kunegis:adapting-ratings}
+Jérôme Kunegis and {\,{S}}ahin Albayrak.
+\newblock Adapting ratings in memory-based collaborative filtering using linear
+  regression.
+\newblock In {\em Proc. Int. Conf. on Information Reuse and Integration}, 2007.
+
+\bibitem[Kat53]{b145}
+Leo Katz.
+\newblock A new status index derived from sociometric analysis.
+\newblock {\em Psychometrika}, 18(1):39--43, 1953.
+
+\bibitem[KCH02]{b357}
+Yehuda Koren, Liran Carmel, and David Harel.
+\newblock {ACE}: A fast multiscale eigenvectors computation for drawing huge
+  graphs.
+\newblock In {\em Symposium on Information Visualization}, pages 137--144,
+  2002.
+
+\bibitem[KD08]{b235}
+Cristobald~De Kerchove and Paul~Van Dooren.
+\newblock The {PageTrust} algorithm: How to rank {Web} pages when negative
+  links are allowed?
+\newblock In {\em Proc. SIAM Int. Conf. on Data Mining}, pages 346--352, 2008.
+
+\bibitem[KDLA10]{kunegis:hyperbolic-sine}
+Jérôme Kunegis, Ernesto~W. De~Luca, and {\,{S}}ahin Albayrak.
+\newblock The link prediction problem in bipartite networks.
+\newblock In {\em Proc. Int. Conf. in Information Processing and Management of
+  Uncertainty in Knowledge-based Systems}, pages 380--389, 2010.
+
+\bibitem[KFB10]{kunegis:spectral-network-evolution}
+Jérôme Kunegis, Damien Fay, and Christian Bauckhage.
+\newblock Network growth and the spectral evolution model.
+\newblock In {\em Proc. Int. Conf. on Information and Knowledge Management},
+  pages 739--748, 2010.
+
+\bibitem[KL02]{b156}
+Risi Kondor and John Lafferty.
+\newblock Diffusion kernels on graphs and other discrete structures.
+\newblock In {\em Proc. Int. Conf. on Machine Learning}, pages 315--322, 2002.
+
+\bibitem[KL09]{kunegis:spectral-transformation}
+Jérôme Kunegis and Andreas Lommatzsch.
+\newblock Learning spectral graph transformations for link prediction.
+\newblock In {\em Proc. Int. Conf. on Machine Learning}, pages 561--568, 2009.
+
+\bibitem[KLB08]{kunegis:alternative-similarity}
+Jérôme Kunegis, Andreas Lommatzsch, and Christian Bauckhage.
+\newblock Alternative similarity functions for graph kernels.
+\newblock In {\em Proc. Int. Conf. on Pattern Recognition}, 2008.
+
+\bibitem[KLB09]{kunegis:slashdot-zoo}
+Jérôme Kunegis, Andreas Lommatzsch, and Christian Bauckhage.
+\newblock The {Slashdot Zoo}: Mining a social network with negative edges.
+\newblock In {\em Proc. Int. World Wide Web Conf.}, pages 741--750, 2009.
+
+\bibitem[KLBA08]{kunegis:kernel-scalability}
+Jérôme Kunegis, Andreas Lommatzsch, Christian Bauckhage, and {\,{S}}ahin
+  Albayrak.
+\newblock On the scalability of graph kernels applied to collaborative
+  recommenders.
+\newblock In {\em Proc. ECAI Workshop on Recommender Systems}, pages 35--38,
+  2008.
+
+\bibitem[KLMA07]{kunegis:assessing-unrated}
+Jérôme Kunegis, Andreas Lommatzsch, Martin Mehlitz, and {\,{S}}ahin Albayrak.
+\newblock Assessing the value of unrated items in collaborative filtering.
+\newblock In {\em Proc. Int. Conf. on Digital Information Management}, pages
+  212--216, 2007.
+
+\bibitem[KLPM10]{b545}
+Haewoon Kwak, Changhyun Lee, Hosung Park, and Sue Moon.
+\newblock What is {Twitter}, a social network or a news media?
+\newblock In {\em Proc. Int. World Wide Web Conf.}, pages 591--600, 2010.
+
+\bibitem[KR93]{b101}
+Douglas~J. Klein and Milan Randić.
+\newblock Resistance distance.
+\newblock {\em J. Math. Chemistry}, 12(1):81--95, 1993.
+
+\bibitem[KS07]{kunegis:negative-resistance}
+Jérôme Kunegis and Stephan Schmidt.
+\newblock Collaborative filtering using electrical resistance network models
+  with negative edges.
+\newblock In {\em Proc. Industrial Conf. on Data Mining}, pages 269--282, 2007.
+
+\bibitem[KSB{\etalchar{+}}08]{kunegis:netflix-srd}
+Jérôme Kunegis, Stephan Schmidt, Christian Bauckhage, Martin Mehlitz, and
+  {\,{S}}ahin Albayrak.
+\newblock Modeling collaborative similarity with the signed resistance distance
+  kernel.
+\newblock In {\em Proc. European Conf. on Artificial Intelligence}, pages
+  261--265, 2008.
+
+\bibitem[KSGM03]{b236}
+Sepandar~D. Kamvar, Mario~T. Schlosser, and Hector Garcia-Molina.
+\newblock The {EigenTrust} algorithm for reputation management in {P2P}
+  networks.
+\newblock In {\em Proc. Int. World Wide Web Conf.}, pages 640--651, 2003.
+
+\bibitem[KSLL10]{kunegis:signed-kernels}
+Jérôme Kunegis, Stephan Schmidt, Andreas Lommatzsch, and Jürgen Lerner.
+\newblock Spectral analysis of signed graphs for clustering, prediction and
+  visualization.
+\newblock In {\em Proc. SIAM Int. Conf. on Data Mining}, pages 559--570, 2010.
+
+\bibitem[KSN{\etalchar{+}}10]{kunegis:network-survey}
+Jérôme Kunegis, Steffen Staab, Nicolas Neubauer, Klaus Obermayer, and
+  Christian Bauckhage.
+\newblock Empirical verification of four complex network models on
+  seventy-seven large network datasets.
+\newblock Unpublished, 2010.
+
+\bibitem[KSTC02]{b263}
+Jaz Kandola, John Shawe-Taylor, and Nello Cristianini.
+\newblock Learning semantic similarity.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  657--664, 2002.
+
+\bibitem[KY04]{b345}
+Bryan Klimt and Yiming Yang.
+\newblock The {Enron} corpus: A new dataset for email classification research.
+\newblock In {\em Proc. European Conf. on Machine Learning}, pages 217--226,
+  2004.
+
+\bibitem[LAH07]{b556}
+Jure Leskovec, Lada Adamic, and Bernardo~A. Huberman.
+\newblock The dynamics of viral marketing.
+\newblock {\em ACM Trans. on the Web}, 1(1), 2007.
+
+\bibitem[Lax84]{b516}
+Peter~D. Lax.
+\newblock {\em Linear Algebra and Its Applications}.
+\newblock John Wiley \& Sons, 1984.
+
+\bibitem[LBKT08]{b461}
+Jure Leskovec, Lars Backstrom, Ravi Kumar, and Andrew Tomkins.
+\newblock Microscopic evolution of social networks.
+\newblock In {\em Proc. Int. Conf. on Knowledge Discovery and Data Mining},
+  pages 462--470, 2008.
+
+\bibitem[Ley02]{b525}
+Michael Ley.
+\newblock The {DBLP} computer science bibliography: Evolution, research issues,
+  perspectives.
+\newblock In {\em Proc. Int. Symposium on String Processing and Information
+  Retrieval}, pages 1--10, 2002.
+
+\bibitem[LH08]{b418}
+Jure Leskovec and Eric Horvitz.
+\newblock Planetary-scale views on a large instant-messaging network.
+\newblock In {\em Proc. Int. World Wide Web Conf.}, pages 915--924, 2008.
+
+\bibitem[LHK10a]{b551}
+Jure Leskovec, Daniel Huttenlocher, and Jon Kleinberg.
+\newblock Governance in social media: A case study of the {Wikipedia} promotion
+  process.
+\newblock In {\em Proc. Int. Conf. on Weblogs and Social Media}, 2010.
+
+\bibitem[LHK10b]{b527}
+Jure Leskovec, Daniel Huttenlocher, and Jon Kleinberg.
+\newblock Signed networks in social media.
+\newblock In {\em Proc. Int. Conf. on Human Factors in Computing Systems},
+  pages 1361--1370, 2010.
+
+\bibitem[LJD09]{b464}
+Zhengdong Lu, Prateek Jain, and Inderjit~S. Dhillon.
+\newblock Geometry-aware metric learning.
+\newblock In {\em Proc. Int. Conf. on Machine Learning}, pages 673--680, 2009.
+
+\bibitem[LJZ09]{b594}
+Linyuan Lü, Ci-Hang Jin, and Tao Zhou.
+\newblock Similarity index based on local paths for link prediction of complex
+  networks.
+\newblock {\em Phys. Rev. E}, 80(4):046122, 2009.
+
+\bibitem[LKF07]{b242}
+Jure Leskovec, Jon Kleinberg, and Christos Faloutsos.
+\newblock Graph evolution: Densification and shrinking diameters.
+\newblock {\em ACM Trans. Knowledge Discovery from Data}, 1(1):1--40, 2007.
+
+\bibitem[LLDM08]{b336}
+Jure Leskovec, Kevin~J. Lang, Anirban Dasgupta, and Michael~W. Mahoney.
+\newblock Statistical properties of community structure in large social and
+  information networks.
+\newblock In {\em Proc. Int. World Wide Web Conf.}, pages 695--704, 2008.
+
+\bibitem[LNK03]{b256}
+David Liben-Nowell and Jon Kleinberg.
+\newblock The link prediction problem for social networks.
+\newblock In {\em Proc. Int. Conf. on Information and Knowledge Management},
+  pages 556--559, 2003.
+
+\bibitem[LQCL09]{b636}
+Wei Liu, Buyue Qian, Jingyu Cui, and Jianzhuang Liu.
+\newblock Spectral kernel learning for semi-supervised classification.
+\newblock In {\em Proc. Int. Joint Conf. on Artifical Intelligence}, pages
+  1150--1155, 2009.
+
+\bibitem[LS00]{b393}
+Daniel~D. Lee and Sebastian~H. Seung.
+\newblock Algorithms for non-negative matrix factorization.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  556--562, 2000.
+
+\bibitem[Lux07]{b304}
+Ulrike~von Luxburg.
+\newblock A tutorial on spectral clustering.
+\newblock {\em Statistics and Computing}, 17(4):395--416, 2007.
+
+\bibitem[LW00]{b365}
+Magnhild Lien and William Watkins.
+\newblock Dual graphs and knot invariants.
+\newblock {\em Linear Algebra and its Applications}, 306(1):123--130, 2000.
+
+\bibitem[LYRL04]{b645}
+David~D. Lewis, Yiming Yang, Tony~G. Rose, and Fan Li.
+\newblock {RCV1}: A new benchmark collection for text categorization research.
+\newblock {\em J. Machine Learning Research}, 5:361--397, 2004.
+
+\bibitem[MA05]{b367}
+Paolo Massa and Paolo Avesani.
+\newblock Controversial users demand local trust metrics: an experimental study
+  on {epinions.com} community.
+\newblock In {\em Proc. American Association for Artificial Intelligence
+  Conf.}, pages 121--126, 2005.
+
+\bibitem[Maj06]{b193}
+Pawel Majewski.
+\newblock Directed {L}aplacian kernels for link analysis.
+\newblock In {\em Proc. Int. Conf. on Intelligent Data Engineering and
+  Automated Learning}, pages 314--321, 2006.
+
+\bibitem[Mey00]{b664}
+Carl~D. Meyer.
+\newblock {\em Matrix Analysis and Applied Linear Algebra}.
+\newblock Society for Industrial and Applied Mathematics, 2000.
+
+\bibitem[MF10]{b614}
+Andri Mirzal and Masashi Furukawa.
+\newblock Eigenvectors for clustering: Unipartite, bipartite, and directed
+  graph cases.
+\newblock In {\em Proc. Int. Conf. on Electronics and Information Engineering},
+  pages 303--309, 2010.
+
+\bibitem[MH05]{b237}
+Paolo Massa and Conor Hayes.
+\newblock {Page-reRank}: Using trusted links to re-rank authority.
+\newblock In {\em Proc. Int. Conf. on Web Intelligence}, pages 614--617, 2005.
+
+\bibitem[Mil67]{b567}
+Stanley Milgram.
+\newblock The small-world problem.
+\newblock {\em Psychology Today}, 1(1):61--67, 1967.
+
+\bibitem[Mis09]{b518}
+Alan Mislove.
+\newblock {\em Online Social Networks: Measurement, Analysis, and Applications
+  to Distributed Information Systems}.
+\newblock PhD thesis, Rice University, 2009.
+
+\bibitem[MKG{\etalchar{+}}08]{b494}
+Alan Mislove, Hema~Swetha Koppula, Krishna~P. Gummadi, Peter Druschel, and
+  Bobby Bhattacharjee.
+\newblock Growth of the {Flickr} social network.
+\newblock In {\em Proc. Workshop on Online Social Networks}, pages 25--30,
+  2008.
+
+\bibitem[MMG{\etalchar{+}}07]{b560}
+Alan Mislove, Massimiliano Marcon, Krishna~P. Gummadi, Peter Druschel, and
+  Bobby Bhattacharjee.
+\newblock Measurement and analysis of online social networks.
+\newblock In {\em Proc. Internet Measurement Conf.}, 2007.
+
+\bibitem[Moh91]{b294}
+Bojan Mohar.
+\newblock The {L}aplacian spectrum of graphs.
+\newblock {\em Graph Theory, Combinatorics, Applications}, 2:871--898, 1991.
+
+\bibitem[MP07]{b622}
+Marina Meilă and William Pentney.
+\newblock Clustering by weighted cuts in directed graphs.
+\newblock In {\em Proc. SIAM Int. Conf. on Data Mining}, 2007.
+
+\bibitem[MRS08]{b521}
+Christopher~D. Manning, Prabhakar Raghavan, and Hinrich Schütze.
+\newblock {\em Introduction to Information Retrieval}.
+\newblock Cambridge University Press, 2008.
+
+\bibitem[MS01]{b148}
+Marina Meilă and Jianbo Shi.
+\newblock A random walks view of spectral segmentation.
+\newblock In {\em Proc. Int. Conf. on Artificial Intelligence and Statistics},
+  2001.
+
+\bibitem[MYC{\etalchar{+}}10]{b634}
+Amin Mantrach, Luh Yen, Jérôme Callut, Kevin Françoisse, Masashi Shimbo, and
+  Marco Saerens.
+\newblock The sum-over-paths covariance kernel: A novel covariance measure
+  between nodes of a directed graph.
+\newblock {\em IEEE Trans. on Pattern Analysis and Machine Intelligence},
+  32(6):1112--1126, 2010.
+
+\bibitem[{Nat}10]{trec45}
+{National Institute of Standards and Technology}.
+\newblock {Text REtrieval Conference} ({TREC}) {English} documents.
+\newblock \url{http://trec.nist.gov/data/docs_eng.html}, August 2010.
+\newblock Volume 4 {\&} 5.
+
+\bibitem[New06a]{b413}
+M.~E.~J. Newman.
+\newblock Finding community structure in networks using the eigenvectors of
+  matrices.
+\newblock {\em Phys. Rev. E}, 74(3):036104, 2006.
+
+\bibitem[New06b]{b408}
+M.~E.~J. Newman.
+\newblock Power laws, {Pareto} distributions and {Zipf}'s law.
+\newblock {\em Contemporary Phys.}, 46(5):323--351, 2006.
+
+\bibitem[NJW01]{b453}
+Andrew~Y. Ng, Michael~I. Jordan, and Yair Weiss.
+\newblock On spectral clustering: Analysis and an algorithm.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  849--856, 2001.
+
+\bibitem[NO10]{neubauer:visualize.us}
+Nicolas Neubauer and Klaus Obermayer.
+\newblock Analysis of the {Visualize.us} folksonomy.
+\newblock Unpublished, 2010.
+
+\bibitem[NZT07]{b272}
+Marc~A. Najork, Hugo Zaragoza, and Michael~J. Taylor.
+\newblock Hits on the {Web}: How does it compare?
+\newblock In {\em Proc. Int. Conf. on Research and Development in Information
+  Retrieval}, pages 471--478, 2007.
+
+\bibitem[Pea88]{b95}
+Judea Pearl.
+\newblock {\em Probabilistic Reasoning in Intelligent Systems: Networks of
+  Plausible Inference}.
+\newblock Morgan Kaufmann Publishers Inc., 1988.
+
+\bibitem[Per07]{b658}
+Oskar Perron.
+\newblock Zur {Theorie} der {Matrices}.
+\newblock {\em Math. Ann.}, 64(2):248--263, 1907.
+
+\bibitem[PFP{\etalchar{+}}07]{b573}
+Gergely Palla, Illés~J. Farkas, Péter Pollner, Imre Derényi, and Tamás
+  Vicsek.
+\newblock Directed network modules.
+\newblock {\em New J. Phys.}, 9(6):186, 2007.
+
+\bibitem[{Pro}10]{prosper}
+{Prosper Marketplace, Inc.}
+\newblock Prosper data export.
+\newblock \url{http://www.prosper.com/tools/DataExport.aspx}, October 2010.
+\newblock v1.2.6.
+
+\bibitem[Rea54]{b322}
+Kenneth~E. Read.
+\newblock Cultures of the {Central} {Highlands}, {New} {Guinea}.
+\newblock {\em Southwestern J. of Anthropology}, 10(1):1--43, 1954.
+
+\bibitem[RFI02]{b552}
+Matei Ripeanu, Ian Foster, and Adriana Iamnitchi.
+\newblock Mapping the {Gnutella} network: Properties of large-scale
+  peer-to-peer systems and implications for system design.
+\newblock {\em IEEE Internet Computing J.}, 6, 2002.
+
+\bibitem[RLH09]{b526}
+Agnes Radl, Ulrike~von Luxburg, and Matthias Hein.
+\newblock The resistance distance is meaningless for large random geometric
+  graphs.
+\newblock In {\em Proc. Workshop on Analyzing Networks and Learning with
+  Graphs}, 2009.
+
+\bibitem[Ros97]{b648}
+Boris Rosenfeld.
+\newblock {\em Geometry of {Lie} Groups}.
+\newblock Kluwer Academic Publishers, 1997.
+
+\bibitem[Roz83]{b96}
+Yurii~A. Rozanov.
+\newblock {\em Markov Random Fields}.
+\newblock Springer, 1983.
+
+\bibitem[SCAK11]{spiegel:time-tensor}
+Stephan Spiegel, Jan Clausen, {\,{S}}ahin Albayrak, and Jérôme Kunegis.
+\newblock Link prediction on evolving data using tensor factorization.
+\newblock In {\em Proc. Workshop on Behavior Informatics}, 2011.
+
+\bibitem[SDLA10]{said:social-similarity}
+Alan Said, Ernesto~W. De~Luca, and {\,{S}}ahin Albayrak.
+\newblock How social relationships affect user similarities.
+\newblock In {\em Proc. IUI Workshop on Social Recommender Systems}, 2010.
+
+\bibitem[SK03]{b155}
+Alex Smola and R.~Kondor.
+\newblock Kernels and regularization on graphs.
+\newblock In {\em Proc. Conf. on Learning Theory and Kernel Machines}, pages
+  144--158, 2003.
+
+\bibitem[SKKR00]{b166}
+Badrul Sarwar, George Karypis, Joseph Konstan, and John Riedl.
+\newblock Application of dimensionality reduction in recommender systems--a
+  case study.
+\newblock In {\em Proc. ACM {WebKDD} Workshop}, 2000.
+
+\bibitem[SKKR01]{b132}
+Badrul~M. Sarwar, George Karypis, Joseph~A. Konstan, and John Riedl.
+\newblock Item-based collaborative filtering recommendation algorithms.
+\newblock In {\em Proc. Int. World Wide Web Conf.}, pages 285--295, 2001.
+
+\bibitem[SLZZ10]{b612}
+Ming-Sheng Shang, Linyuan Lü, Yi-Cheng Zhang, and Tao Zhou.
+\newblock Empirical analysis of {Web}-based user-object bipartite networks.
+\newblock {\em Europhys. Lett.}, 90(4):48006, 2010.
+
+\bibitem[SM00]{b452}
+Jianbo Shi and Jitendra Malik.
+\newblock Normalized cuts and image segmentation.
+\newblock {\em IEEE Trans. on Pattern Analysis and Machine Intelligence},
+  22(8):888--905, 2000.
+
+\bibitem[Sob95]{b666}
+Garret Sobczyk.
+\newblock The hyperbolic number plane.
+\newblock {\em The College Math. J.}, 26:268--280, 1995.
+
+\bibitem[Ste90]{b528}
+Gilbert~W. Stewart.
+\newblock Perturbation theory for the singular value decomposition.
+\newblock Technical report, Univ. of Maryland, College Park, 1990.
+
+\bibitem[Ste05]{b334}
+Daniel Stewart.
+\newblock Social status in an open-source community.
+\newblock {\em American Sociological Review}, 70(5):823--842, 2005.
+
+\bibitem[STF06]{b515}
+Jimeng Sun, Dacheng Tao, and Christos Faloutsos.
+\newblock Beyond streams and graphs: Dynamic tensor analysis.
+\newblock In {\em Proc. Int. Conf. on Knowledge Discovery and Data Mining},
+  pages 374--383, 2006.
+
+\bibitem[TB06]{b234}
+George Theodorakopoulos and John~S. Baras.
+\newblock Linear iterations on ordered semirings for trust metric computation
+  and attack resiliency evaluation.
+\newblock In {\em Proc. Int. Symposium on Math. Theory of Networks and
+  Systems}, pages 509--514, 2006.
+
+\bibitem[TM69]{b568}
+Jeffrey Travers and Stanley Milgram.
+\newblock An experimental study of the small world problem.
+\newblock {\em Sociometry}, 32(4):425--443, 1969.
+
+\bibitem[VMCG09]{b480}
+Bimal Viswanath, Alan Mislove, Meeyoung Cha, and Krishna~P. Gummadi.
+\newblock On the evolution of user interaction in {Facebook}.
+\newblock In {\em Proc. Workshop on Online Social Networks}, pages 37--42,
+  2009.
+
+\bibitem[WC04]{b244}
+Yi~Wu and Edward~Y. Chang.
+\newblock Distance-function design and fusion for sequence data.
+\newblock In {\em Proc. Int. Conf. on Information and Knowledge Management},
+  pages 324--333, 2004.
+
+\bibitem[Wed72]{b633}
+Per-{\AA}ke Wedin.
+\newblock Perturbation bounds in connection with singular value decomposition.
+\newblock {\em BIT Numerical Math.}, 12(1), 1972.
+
+\bibitem[Wey12]{b632}
+Hermann Weyl.
+\newblock Das asymptotische {Verteilungsgesetz} der {Eigenwerte} linearer
+  partieller {Differenzialgleichungen} (mit einer {Anwendung} auf die {Theorie}
+  der {Hohlraumstrahlung}).
+\newblock {\em Math. Ann.}, 71(4):441--479, 1912.
+
+\bibitem[{Wik}10]{download.wikimedia.org}
+{Wikimedia Foundation}.
+\newblock Wikimedia downloads.
+\newblock \url{http://download.wikimedia.org/}, January 2010.
+
+\bibitem[Wil65]{b663}
+James~H. Wilkinson.
+\newblock {\em The Algebraic Eigenvalue Problem}.
+\newblock Oxford University Press, 1965.
+
+\bibitem[WS97]{b350}
+M.~Wax and J.~Sheinvald.
+\newblock A least-squares approach to joint diagonalization.
+\newblock {\em IEEE Signal Processing Letters}, 4(2):52--53, 1997.
+
+\bibitem[WS98]{b228}
+Duncan~J. Watts and Steven~H. Strogatz.
+\newblock Collective dynamics of `small-world' networks.
+\newblock {\em Nature}, 393(6684):440--442, June 1998.
+
+\bibitem[WZB08]{wetzker:delicious-cookbook}
+Robert Wetzker, Carsten Zimmermann, and Christian Bauckhage.
+\newblock Analyzing social bookmarking systems: A {del.icio.us} cookbook.
+\newblock In {\em Proc. Mining Social Data Workshop}, pages 26--30, 2008.
+
+\bibitem[YCL07]{b233}
+Bo~Yang, William Cheung, and Jiming Liu.
+\newblock Community mining from signed social networks.
+\newblock {\em Trans. on Knowledge and Data Engineering}, 19(10):1333--1348,
+  2007.
+
+\bibitem[Zas82]{b647}
+Thomas Zaslavsky.
+\newblock Signed graphs.
+\newblock {\em Discrete Applied Math.}, 4:47--74, 1982.
+
+\bibitem[Zas08]{b324}
+Thomas Zaslavsky.
+\newblock Matrices in the theory of signed simple graphs.
+\newblock In {\em Proc. Int. Conf. Discrete Math.}, 2008.
+
+\bibitem[ZKGL05]{b657}
+Xiaojin Zhu, Jaz Kandola, Zoubin Ghahramani, and John Lafferty.
+\newblock Nonparametric transforms of graph kernels for semi-supervised
+  learning.
+\newblock In {\em Advances in Neural Information Processing Systems}, 2005.
+
+\bibitem[ZKLG06]{b564}
+Xiaojin Zhu, Jaz Kandola, John Lafferty, and Zoubin Ghahramani.
+\newblock {\em Semi-supervised Learning}, chapter Graph Kernels by Spectral
+  Transforms.
+\newblock MIT Press, 2006.
+
+\bibitem[ZLMZ05]{b554}
+Beichuan Zhang, Raymond Liu, Daniel Massey, and Lixia Zhang.
+\newblock Collecting the {Internet} {AS}-level topology.
+\newblock {\em SIGCOMM Computer Communication Review}, 35(1):53--61, 2005.
+
+\bibitem[ZM08]{b401}
+Dell Zhang and Robert Mao.
+\newblock Classifying networked entities with modularity kernels.
+\newblock In {\em Proc. Conf. on Information and Knowledge Management}, pages
+  113--122, 2008.
+
+\bibitem[ZMKL05]{b523}
+Cai-Nicolas Ziegler, Sean~M. McNee, Joseph~A. Konstan, and Georg Lausen.
+\newblock Improving recommendation lists through topic diversification.
+\newblock In {\em Proc. Int. World Wide Web Conf.}, pages 22--32, 2005.
+
+\end{thebibliography}

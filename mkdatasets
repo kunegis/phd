@@ -1,0 +1,33 @@
+#! /bin/sh
+# 
+# Generate the table of datasets. 
+#
+# INPUT
+#	../webstore/analysis/   Directory with statistics
+#	dataset-list		List of datasets
+#
+# OUTPUT
+#	datasets.dat 	Table in tab-separated format
+#
+
+set -e
+
+TMP_FILE=${TMP:-/tmp}/datasets.$$
+
+CORPORA="`<dataset-list sed -re 's,[^ ]+[_2-][ut]i ,,g' `"
+
+echo $CORPORA | wc -w
+
+export CORPORA
+
+here="`pwd`"
+
+cd ../webstore/latex/
+
+OUTPUT=$here/datasets.dat \
+HIDE_STAT=1 \
+FOLKSONOMY_FOLD=1 \
+../matlab/matlab table 
+
+
+

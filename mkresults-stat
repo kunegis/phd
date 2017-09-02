@@ -1,0 +1,24 @@
+#! /bin/sh
+#
+# Generate the statistics table. 
+#
+
+set -e
+
+TMP_FILE=${TMP:-/tmp}/`basename $0`.$$
+
+CORPORA="`cat dataset-list`"
+export CORPORA
+
+export OUTPUT=$TMP_FILE.out
+
+export METHODS_STAT="rank diameter density clusco power cc-relative cc-strong-relative" 
+
+export HIDE_SIZE=1
+export HIDE_MULTIPLE_FOLKSONOMIES=1
+
+cd ../webstore/analysis/
+
+../matlab/matlab result2 
+
+cat $TMP_FILE.out
