@@ -1,0 +1,183 @@
+'''[[User:Kunegis|Meine]] Dissertation''' mit Titel '''On the Spectral Evolution of Large Networks''' behandelt die spektrale Analyse von großen Netzwerken.  Die Hauptaussage ist:  Das Spektrum beschreibt die globale Struktur, und die Eigenvektoren beschreiben die lokale Struktur.  Es wird gezeigt, dass zum Link-Prediction die Eigenvektoren beibehalten werden müssen, und dass das Spektrum ein Zufallsgraphenmodells parametrisiert.
+
+I started my dissertation at the DAI Lab at TU Berlin, and am finishing it at WeST.
+
+== Eckdaten ==
+* Name:  '''On the Spectral Evolution of Large Networks'''
+** Deutscher Titel:  Über die spektrale Evolution großer Netzwerke
+* Angestrebter Doktorgrad:  Dr. rer. nat.
+* PDF:  https://projects.isweb.uni-koblenz.de/svn/kunegis/papers/phd/thesis.pdf
+* PDF (print version):  https://projects.isweb.uni-koblenz.de/svn/kunegis/papers/phd/thesis-print.pdf
+* Latex source:  https://projects.isweb.uni-koblenz.de/svn/kunegis/papers/phd/
+* Advisors
+** Prof. Dr. Steffen Staab, U. of Koblenz-Landau
+** Prof. Dr. Christian Bauckhage, Fraunhofer IAIS, St. Augustin
+** Prof. Dr. Klaus Obermayer, Technische Universität Berlin
+* Kommissionsvorsitz:  Prof. Karin Harbusch
+* Code and data: see [[KONECT]]
+
+Infos:
+* http://www.uni-koblenz-landau.de/koblenz/fb4/studying/promotion
+* https://www.uni-koblenz-landau.de/koblenz/fb4/studying/promotion/internes/doktorandenstatus
+
+== Administrative ==
+* Gesuch abgeben https://www.uni-koblenz-landau.de/koblenz/fb4/studying/promotion/internes/promotionsgesuch
+** Ein formloses Anschreiben (TeX-Vorlage) mit Angabe
+*** des angestrebten akademischen Grads,
+*** des Titels der Dissertation,
+*** und Vorschlägen für die Berichterstatter (Gutachter)
+** Eine Kopie der Diplomurkunde / des Diplomzeugnisses
+** Eine Erklärung darüber, dass die Diss. selbst angefertigt wurde und mehr, siehe (TeX-Vorlage)
+** 5 gebundene Exemplare der Dissertation
+** Ein Nachweis, dass die Promotionsgebühr überwiesen wurde.
+*** Betrag: 102,26€
+*** Empfänger: Landeshochschulkasse Mainz, Bankverbindung: BBK Mainz (BLZ 550 000 00), Konto-Nummer: 55001511
+*** Verwendungszweck: KAP 0909 Titel 111 22, Objekt 1400990 Prom.Gebühr FB4
+* Veröffentlichung
+** Thomas Franz:  bei Dr. Hut ; ich brauche 8 Exemplare
+** Namen der Gutachter wieder einfügen
+* VG Wort:   Finanzhilfe
+
+==Geschichte==
+* 2006-04-12:  Als Wissenschaftler am DAI-Labor begonnen
+* 2006-07-12:  Überlegungen begonnen
+* 2006-10-18:  Thema umrissen
+* 2007-02-02:  Thema gewählt
+* 2007-03-27: Erstellung der Tabelle ''[[Graph Relations]]''
+** Hier habe ich die ersten Papers submittet bekommen.
+** Kollaboration mit Christian Bauckhage
+* 2007-11-06:  Erstellen des Draft-Proposals
+* 2008-01-10:  Proposal-Draft veröffentlicht
+* 2008-09:  Erfindung des »Universal Recommender«
+* 2009-03:  Scope entschieden
+* 2009-04:  ''Learning Spectral Graph Transformations for Link Prediction'' akzeptiert bei der ICML 2009
+* 2009-08-10:  neues Proposal geschrieben:  '''Spectral Dynamics of Large Networks'''
+* 2010-02-12:  started writing under name '''On the Spectral Evolution of Large Networks'''
+* 2010-08-16:  started at WeST
+* 2011-05-13:  test talk at NI.cs.tu-berlin.de
+* 2011-05-19:  finished writing
+* 2011-05-23:  abgegeben
+* 2011-05-24:  test talk at Fraunhofer IAIS
+
+== Review ==
+Key:
+* A – All
+* A(''i'') – All, and Chaper ''i'' in particular
+* ''i'' – Chapter ''i''
+* + – gave a review
+
+Primary reviewers (people that should read my thesis because they are working on similar topics):
+* Prof. Steffen Staab:  A A A +
+* Prof. Christian Bauckhage:  1 A A
+* Prof. Klaus Obermayer:  1 A A
+* Nicolas Naubauer:  1 A A
+* Damien Fay:  A A(3) +
+* Rabeeh Abbasi:  A
+* Thomas Gottron:  A(2) A(4)
+* Thomas Franz:  A A(4)
+* Klaas Dellschaft:  A(6) +
+* Antje Schultz:  A(5) + A(3) +
+* Sergej Sizov:  A(4)
+* Stephan Spiegel: 1 A(4)
+* Alan Said:  1 A(2) A(2)
+* Andreas Lommatzsch:  1 A +
+* Jan Clausen:  A(3) +
+* Christian Hachenberg:  A(2)
+* Jürgen Lerner:  A(5)
+* Nasir Naveed:  A(2)
+* Julia Preusse:  A(2) A(3) + +
+* Miloš Radovanović:  A
+
+Secondary reviewers (they probably will want to read my thesis, but are working in another area themselves):
+* Fernando Silva Parreiras:  A
+* Tobias Walter:  A A(2)
+* Gerd Gröner:  A(1) +
+* Renata Dividino:  A(2) +
+* Olaf Görlitz:  A(3)
+* Tina Walber:  A(5) +
+* Felix Schwagereit:  A(4)
+* Stefan Scheglmann:  A
+* Christoph Ringelstein: A A(4) +
+* Ansgar Scherp: A(6) A(6) +
+* Ernesto W. De Luca:  A
+* Till Plumbaum:  A
+* Rafael Schirru:  A(4)
+* Robert Wetzker:  A(2)
+* Dominik Benz:  A(3)
+* Martin Mehlitz:  <s>A(5)</s>
+* Arifah Che Alhadi:  A
+* René Pickhardt: A(4) +
+* Narcisse Noubissi Noukoumo:  A
+* Alexander Korth: A(1,7)
+
+Tertiary reviewers (I only met each of these guys a few times):
+* James Chen
+* Thomas Gärtner: A
+* Francesco Bonchi
+* Zeno Gantner
+* Lü Zhengdong
+* Jure Leskovec
+* Frank Rügheimer
+* Sebastian Stober
+* Andreas Nürnberger
+* Steve Uhlig
+
+== Future work ==
+These points have ''not'' made it in the dissertation.  I may try them out in the future.
+
+* everything marked ''TODC'' in the source
+
+* decompositions
+** MMMF
+*** http://ttic.uchicago.edu/~nati/mmmf/code.html
+** “mask approximation”, a.k.a. weighted low-rank approximation [178]
+** PLSA
+** LDA
+** NMF (nonnegative matrix factorization)
+** [379] for square assymetric:  A = ZUZ, where U is small, square and assymetric (equivalent to polaR trick?)
+** compute only biggest eigenvalues (not by absolute value)
+** modularity matrix A-P [401] [413], where P is the rank-1 approximation given by Pij = di dj / 2.
+** Use the generalized eigenvectors and spectrum of (A,D), or equivalently of (L,D), cf. [405] and Shi&Malik.
+*** compute with eigs(D^-1 A, 'lr')
+** compute right eigenvalues of all square asymmetric matrices (e.g. the left-normalized Laplacian, directed adjacency matrix, etc.)
+** SVD of square asymmetric matrices with signed singular values (i.e. chosen such that the scalar product of corresponding eigenvectors is positive)
+** from [604.3.3]:  Let A be the assymetric square adjacency matrix.  H = e<sup>−i π/4</sup> (A + i A<sup>T</sup>).  Compute the complex eigenvalue decomposition of H.
+* also evaluate undirected and unweighted link prediction task
+* animated 3D PCA plots
+* [377] faster computation of the Laplacian's smallest eigenvalues.
+* learn spectral transformation from index to new eigenvalues
+** curve fitting with index on x-axis
+* draw edge weight distributions for all weighted datasets
+* compute the smooth rank correlation
+* Learn f(L_A) = L_B (instead of f(L_A) = B)
+* learn tridiagonal decomposition
+* normalized methods:  combine with cosine (as done for lap)
+* estimate and draw power law exponent (for both degree distribution and positive edge weight distribution)
+* cross validation (at lower level) (this is bagging)
+** all test-to-training ratios should be near to 1 (i.e. learn only immediate changes, which is what we want to predict)
+** find out the growth pattern of each eigenvalue
+* show empirically that the learned parameters are optimal by graph drawing in function of the parameter
+** for exp, sinh
+** for dimensionality reduction
+* curve and evaluation in function of reduced rank K.
+* check how the training set size influences the spectral parameters
+* reinterpret as model selection:  choose best performing curve fitting for evaluation on test set.
+* plot in addition to degree distribution:  cumulated degree distribution:  Pr(X > x_0)
+* using cross-validation, check whether the learned spectrum is consistent, especially if it is non-monotonous.  What does such a spectrum say about the graph, and can the spectrum be used as a random graph model (i.e. using random eigenvectors)?
+* draw hop plots (average number of neighbors in function of radius)
+* high(er) rank mask approximation (with correct convergence criterion)
+* plot the (estimated) distance distribution between all node pairs
+* for each new edge:  compute number of paths closed for each path length; plot this by degree
+* Friendship vs. Fandom in unipartite graphs:  closing of 2-paths vs. closing of 3-paths.
+* cosine: do it for all comp's in one pass
+** this will also prevent drawing curwe several times.
+* remove unused evaluation measures for faster evaluation (e.g. AUC)
+* [464] function FindAlpha:  monotonicity constraint on the Laplacian spectral transformation.  Try it out for predicting spectral transformations.  Not sure it it really sensible because some spectral growth in non-monotonous.
+* re-enable asym-n (check that the absolute value is taken ''before'' the graph is made symmetric)
+* check assortative / dissortative mixing of networks
+* plot the the evolution of Chung's upper bound of the diameter based on the Laplacian eigenvalue cosh^-1 (m-1) / cosh^-1 ((λ_m-1 + λ_1)  / (λ_m-1 - λ_1))    [chung 1994]  [ here, λ_0 = 0 is the smallest eigenvalue]
+* draw the following plot:  on a two-dimensional plot, each edge of the graph is represented by a point whose coordinates are the components of the two connected vertices in the network's dominant eigenvector.
+
+== References ==
+* [[User:Kunegis/Referenzen]]
+* https://projects.isweb.uni-koblenz.de/svn/kunegis/bibtex/
